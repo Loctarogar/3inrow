@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b067965d444019b4aaafef7db55116e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoardManager
+  crystalPrefab: {fileID: 5769216497347391796, guid: 08dcec75fbd2bff4098f5c51179b8719, type: 3}
 --- !u!4 &206034153
 Transform:
   m_ObjectHideFlags: 0

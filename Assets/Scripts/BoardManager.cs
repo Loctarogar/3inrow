@@ -23,6 +23,12 @@ public class BoardManager : MonoBehaviour
     {
         Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
         Debug.Log($"Liczba pól na planszy {board.Length}");
+        CreateTestCrystal();
+    }
+
+    private void CreateTestCrystal()
+    {
+        Instantiate( crystalPrefab, Vector3.zero, Quaternion.identity ); 
     }
 
     // Update is called once per frame
