@@ -54,7 +54,7 @@ public class BoardManager : MonoBehaviour
             );
 
             crystal.transform.localScale =
-                new Vector3(0.15f, 0.15f, 1f);
+                new Vector3(0.10f, 0.10f, 1f);
 
             SpriteRenderer renderer =
                 crystal.GetComponent<SpriteRenderer>();
