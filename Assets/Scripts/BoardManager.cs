@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BoardManager : MonoBehaviour
 {
+    [SerializeField] private GameObject crystalPrefab;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public const int Width = 7;
     public const int Height = 7;
