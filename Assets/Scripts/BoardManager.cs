@@ -19,16 +19,32 @@ public class BoardManager : MonoBehaviour
     }
 
     private CrystalType[,] board = new CrystalType[Width, Height];
+
     void Start()
     {
         Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
         Debug.Log($"Liczba pól na planszy {board.Length}");
-        CreateTestCrystal();
+        CreateBoard();
     }
 
-    private void CreateTestCrystal()
+    private void CreateBoard()
     {
-        Instantiate( crystalPrefab, Vector3.zero, Quaternion.identity ); 
+        for (int x = 0; x < Width; x++)
+        {
+            for (int y = 0; y < Height; y++)
+            {
+                GameObject crystal = Instantiate(
+                crystalPrefab,
+                new Vector3(
+                    (x - (Width - 1) / 2f) * 1.2f,
+                    (y - (Height - 1) / 2f) *1.2f
+                    ),
+                Quaternion.identity
+                );
+
+                crystal.transform.localScale = new Vector3(0.15f, 0.15f, 1f);
+            }
+        }
     }
 
     // Update is called once per frame
