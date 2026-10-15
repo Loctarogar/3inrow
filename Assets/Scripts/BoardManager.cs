@@ -111,6 +111,13 @@ public class BoardManager : MonoBehaviour
             return;
         }
 
+        if (selectedCrystal == crystal)
+        {
+            selectedCrystal = null;
+            Debug.Log("Anulowano wybór");
+            return;
+        }
+
         int distanceX = Mathf.Abs(selectedCrystal.X - crystal.X);
         int distanceY = Mathf.Abs(selectedCrystal.Y - crystal.Y);
 
@@ -118,6 +125,10 @@ public class BoardManager : MonoBehaviour
         {
             SwapCrystals(selectedCrystal, crystal);
             Debug.Log($"Drugi krysztal");
+            selectedCrystal = null;
+        }
+        else 
+        {
             selectedCrystal = null;
         }
     }
