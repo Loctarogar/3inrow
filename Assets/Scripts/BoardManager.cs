@@ -154,6 +154,45 @@ public class BoardManager : MonoBehaviour
         second.Initialize(firstX, firstY, this);
 
         Debug.Log("Kryształy zamineniły się miejscami");
+
+        FindMatchesHorizontal();
+        FindMatchesVertical();
+    }
+
+    private void FindMatchesHorizontal()
+    {
+        for (int y = 0; y < Height; y++)
+        {
+            for(int x = 0; x < Width - 2; x++)
+            {
+                if (board[x, y] == board[x + 1, y] &&
+                    board[x, y] == board[x + 2, y])
+                {
+                    Debug.Log(
+                        $"Dopasowanie poziome od X={x}, Y={y}: " +
+                        $"{board[x, y]}"
+                        );
+                }
+            }
+        }
+    }
+
+    private void FindMatchesVertical()
+    {
+        for(int x = 0; x < Width; x++)
+        {
+            for (int y = 0; y < Height - 2; y++)
+            {
+                if (board[x, y] == board[x, y + 1] &&
+                board[x, y] == board[x, y + 2])
+                {
+                    Debug.Log(
+                        $"Dopasowanie pionowe od X={x}, Y={y}: " +
+                        $"{board[x, y]}"
+                    );
+                }
+            }
+        }
     }
 
     // Update is called once per frame
