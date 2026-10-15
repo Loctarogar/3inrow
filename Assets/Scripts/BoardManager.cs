@@ -21,10 +21,13 @@ public class BoardManager : MonoBehaviour
         Green,
         Yellow,
         Purple,
-        Universal
+        Universal,
+        Empty
     }
 
     private CrystalType[,] board = new CrystalType[Width, Height];
+    private Crystal[,] crystals = new Crystal[Width, Height];
+    private bool[,] matched = new bool[Width, Height];
 
     private Crystal selectedCrystal;
 
@@ -70,6 +73,7 @@ public class BoardManager : MonoBehaviour
                     continue;
             }
             crystalComponent.Initialize(x, y, this);
+            crystals[x, y] = crystalComponent;
         }
     }
 }
@@ -155,8 +159,12 @@ public class BoardManager : MonoBehaviour
 
         Debug.Log("Kryształy zamineniły się miejscami");
 
+        ResetMatches();
+
         FindMatchesHorizontal();
         FindMatchesVertical();
+
+        RemoveMatches();
     }
 
     private void FindMatchesHorizontal()
@@ -165,9 +173,13 @@ public class BoardManager : MonoBehaviour
         {
             for(int x = 0; x < Width - 2; x++)
             {
-                if (board[x, y] == board[x + 1, y] &&
+                if (board[x, y] != CrystalType.Universal &&
+                    board[x, y] == board[x + 1, y] &&
                     board[x, y] == board[x + 2, y])
                 {
+                    matched[x, y] = true;
+                    matched[x + 1, y] = true;
+                    matched[x + 2, y] = true;
                     Debug.Log(
                         $"Dopasowanie poziome od X={x}, Y={y}: " +
                         $"{board[x, y]}"
@@ -183,13 +195,46 @@ public class BoardManager : MonoBehaviour
         {
             for (int y = 0; y < Height - 2; y++)
             {
-                if (board[x, y] == board[x, y + 1] &&
-                board[x, y] == board[x, y + 2])
+                if (board[x, y] != CrystalType.Universal &&
+                    board[x, y] == board[x, y + 1] &&
+                    board[x, y] == board[x, y + 2])
                 {
+                    matched[x, y] = true;
+                    matched[x, y + 1] = true;
+                    matched[x, y + 2] = true;
                     Debug.Log(
                         $"Dopasowanie pionowe od X={x}, Y={y}: " +
                         $"{board[x, y]}"
                     );
+                }
+            }
+        }
+    }
+
+    private void ResetMatches()
+    {
+        for(int x = 0; x < Width; x++)
+        {
+            for (int y = 0; y < Height; y++)
+            {
+                matched[x, y] = false;
+            }
+        }
+    }
+
+    private void RemoveMatches()
+    {
+        for(int x = 0; x < Width; x++)
+        {
+            for(int y = 0; y < Height;y++)
+            {
+                if (matched[x, y])
+                {
+                    Destroy(crystals[x, y].gameObject);
+
+                    crystals[x, y] = null;
+                    board[x, y] = CrystalType.Empty;
+                    matched[x, y] = false;
                 }
             }
         }
