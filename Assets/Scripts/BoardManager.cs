@@ -60,6 +60,14 @@ public class BoardManager : MonoBehaviour
                 crystal.GetComponent<SpriteRenderer>();
 
             renderer.sprite = GetCrystalSprite(type);
+
+            Crystal crystalComponent = crystal.GetComponent<Crystal>();
+            if (crystalComponent == null) 
+            {
+                    Debug.LogError($"{crystal.name}");
+                    continue;
+            }
+            crystalComponent.Initialize(x, y, this);
         }
     }
 }
@@ -83,12 +91,17 @@ public class BoardManager : MonoBehaviour
             case CrystalType.Purple:
                 return purpleCrystal;
 
-            case CrystalType: 
-                return purpleCrystal;
+            case CrystalType.Universal: 
+                return universalCrystal;
 
             default:
                 return redCrystal;
         }
+    }
+
+    public void SelectCrystal(Crystal crystal) 
+    {
+        Debug.Log($"Wybrano  krysztal: X={crystal.X}, Y={crystal.Y}");
     }
 
     // Update is called once per frame
