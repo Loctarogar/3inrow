@@ -26,6 +26,8 @@ public class BoardManager : MonoBehaviour
 
     private CrystalType[,] board = new CrystalType[Width, Height];
 
+    private Crystal selectedCrystal;
+
     void Start()
     {
         Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
@@ -101,7 +103,46 @@ public class BoardManager : MonoBehaviour
 
     public void SelectCrystal(Crystal crystal) 
     {
-        Debug.Log($"Wybrano  krysztal: X={crystal.X}, Y={crystal.Y}");
+        if (selectedCrystal == null)
+        {
+            selectedCrystal = crystal;
+            Debug.Log($"pierwszy krysztal");
+
+            return;
+        }
+
+        int distanceX = Mathf.Abs(selectedCrystal.X - crystal.X);
+        int distanceY = Mathf.Abs(selectedCrystal.Y - crystal.Y);
+
+        if(distanceX + distanceY == 1)
+        {
+            SwapCrystals(selectedCrystal, crystal);
+            Debug.Log($"Drugi krysztal");
+            selectedCrystal = null;
+        }
+    }
+
+    private void SwapCrystals(Crystal first, Crystal second)
+    {
+        int firstX = first.X;
+        int firstY = first.Y;   
+
+        int secondX = second.X;
+        int secondY = second.Y;
+
+        CrystalType temp = board[firstX, firstY];
+
+        board[firstX, firstY] = board[secondX, secondY];
+        board[secondX, secondY] = temp;
+
+        Vector3 firstPosition = first.transform.position;
+        first.transform.position = second.transform.position;
+        second.transform.position = firstPosition;
+
+        first.Initialize(secondX, secondY, this);
+        second.Initialize(firstX, firstY, this);
+
+        Debug.Log("Kryształy zamineniły się miejscami");
     }
 
     // Update is called once per frame
