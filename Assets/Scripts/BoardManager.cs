@@ -29,7 +29,7 @@ public class BoardManager : MonoBehaviour
 
     private CrystalType[,] board = new CrystalType[Width, Height];
     private Crystal[,] crystals = new Crystal[Width, Height];
-    private bool[,] matched = new bool[Width, Height];
+    
     private HashSet<Vector2Int> matchedPositions = new HashSet<Vector2Int>();
 
     private Crystal selectedCrystal;
@@ -217,132 +217,6 @@ public class BoardManager : MonoBehaviour
             );
         }
 
-        matchedPositions.Clear();
-    }
-
-
-    private void FindMatchesHorizontal()
-    {
-        for (int y = 0; y < Height; y++)
-        {
-            for(int x = 0; x < Width - 2; x++)
-            {
-                if (board[x, y] != CrystalType.Empty &&
-                    board[x, y] != CrystalType.Universal &&
-                    board[x, y] == board[x + 1, y] &&
-                    board[x, y] == board[x + 2, y])
-                {
-                    matched[x, y] = true;
-                    matched[x + 1, y] = true;
-                    matched[x + 2, y] = true;
-                    Debug.Log(
-                        $"Dopasowanie poziome od X={x}, Y={y}: " +
-                        $"{board[x, y]}"
-                        );
-                }
-            }
-        }
-    }
-
-    private void FindMatchesVertical()
-    {
-        for(int x = 0; x < Width; x++)
-        {
-            for (int y = 0; y < Height - 2; y++)
-            {
-                if (board[x, y] != CrystalType.Empty &&
-                    board[x, y] != CrystalType.Universal &&
-                    board[x, y] == board[x, y + 1] &&
-                    board[x, y] == board[x, y + 2])
-                {
-                    matched[x, y] = true;
-                    matched[x, y + 1] = true;
-                    matched[x, y + 2] = true;
-                    Debug.Log(
-                        $"Dopasowanie pionowe od X={x}, Y={y}: " +
-                        $"{board[x, y]}"
-                    );
-                }
-            }
-        }
-    }
-
-    private void ResetMatches()
-    {
-        for(int x = 0; x < Width; x++)
-        {
-            for (int y = 0; y < Height; y++)
-            {
-                matched[x, y] = false;
-            }
-        }
-    }
-
-    private void RemoveMatches()
-    {
-        for(int x = 0; x < Width; x++)
-        {
-            for(int y = 0; y < Height;y++)
-            {
-                if (matched[x, y])
-                {
-                    Debug.Log(
-                        $"Usuwanie kryształu: X={x}, Y={y}, typ={board[x, y]}"
-);
-                    Destroy(crystals[x, y].gameObject);
-
-                    crystals[x, y] = null;
-                    board[x, y] = CrystalType.Empty;
-                    matched[x, y] = false;
-                }
-            }
-        }
-    }
-
-    private bool HasMatchAt(int x, int y)
-    {
-        CrystalType type = board[x, y];
-
-        if (type == CrystalType.Empty ||
-            type == CrystalType.Universal)
-        {
-            return false;
-        }
-
-        int horizontalCount = 1;
-
-        for (int i = x - 1; i >= 0 && board[i, y] == type; i--)
-        {
-            horizontalCount++;
-        }
-
-        for (int i = x + 1; i < Width && board[i, y] == type; i++)
-        {
-            horizontalCount++;
-        }
-
-        if (horizontalCount >= 3)
-        {
-            return true;
-        }
-
-        int verticalCount = 1;
-
-        for (int i = y - 1; i >= 0 && board[x, i] == type; i--)
-        {
-            verticalCount++;
-        }
-
-        for (int i = y + 1; i < Height && board[x, i] == type; i++)
-        {
-            verticalCount++;
-        }
-
-        return verticalCount >= 3;
-    }
-
-    private void ResetMatchedPositions()
-    {
         matchedPositions.Clear();
     }
 
