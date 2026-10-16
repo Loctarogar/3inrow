@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class BoardManager : MonoBehaviour
@@ -129,7 +130,7 @@ public class BoardManager : MonoBehaviour
 
         if(distanceX + distanceY == 1)
         {
-            SwapCrystals(selectedCrystal, crystal);
+            StartCoroutine(SwapCrystals(selectedCrystal, crystal));
             Debug.Log($"Drugi krysztal");
             selectedCrystal = null;
         }
@@ -140,7 +141,7 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    private void SwapCrystals(Crystal first, Crystal second)
+    private IEnumerator SwapCrystals(Crystal first, Crystal second)
     {
         int firstX = first.X;
         int firstY = first.Y;
@@ -168,6 +169,8 @@ public class BoardManager : MonoBehaviour
 
         Debug.Log("Kryształy zamieniły się miejscami");
 
+        yield return new WaitForSeconds(0.5f);
+
         // Sprawdzamy pierwszą klikniętą figurę w nowej pozycji.
         if (!FindAllMatchesAt(secondX, secondY))
         {
@@ -190,7 +193,7 @@ public class BoardManager : MonoBehaviour
             matchedPositions.Clear();
 
             Debug.Log("Brak dopasowania. Cofnięto zamianę.");
-            return;
+            yield break;
         }
 
         // Szukamy połączonych dopasowań, w tym T i L.
