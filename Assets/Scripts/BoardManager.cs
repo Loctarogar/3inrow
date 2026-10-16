@@ -173,7 +173,8 @@ public class BoardManager : MonoBehaviour
         {
             for(int x = 0; x < Width - 2; x++)
             {
-                if (board[x, y] != CrystalType.Universal &&
+                if (board[x, y] != CrystalType.Empty &&
+                    board[x, y] != CrystalType.Universal &&
                     board[x, y] == board[x + 1, y] &&
                     board[x, y] == board[x + 2, y])
                 {
@@ -195,7 +196,8 @@ public class BoardManager : MonoBehaviour
         {
             for (int y = 0; y < Height - 2; y++)
             {
-                if (board[x, y] != CrystalType.Universal &&
+                if (board[x, y] != CrystalType.Empty &&
+                    board[x, y] != CrystalType.Universal &&
                     board[x, y] == board[x, y + 1] &&
                     board[x, y] == board[x, y + 2])
                 {
