@@ -47,7 +47,8 @@ public class BoardManager : MonoBehaviour
     {
         for (int y = 0; y < Height; y++)
         {
-            CrystalType type = (CrystalType)Random.Range(0, 6);
+            //CrystalType type = (CrystalType)Random.Range(0, 6);
+            CrystalType type = GetRandomCrystalType(x, y);
 
             board[x, y] = type;
 
@@ -80,6 +81,31 @@ public class BoardManager : MonoBehaviour
         }
     }
 }
+
+    private CrystalType GetRandomCrystalType(int x, int y)
+    {
+        List<CrystalType> availableTypes = new List<CrystalType>
+    {
+        CrystalType.Red,
+        CrystalType.Blue,
+        CrystalType.Green,
+        CrystalType.Yellow,
+        CrystalType.Purple,
+        CrystalType.Universal
+    };
+
+        if (x >= 2 && board[x - 1, y] == board[x - 2, y])
+        {
+            availableTypes.Remove(board[x - 1, y]);
+        }
+
+        if (y >= 2 && board[x, y - 1] == board[x, y - 2])
+        {
+            availableTypes.Remove(board[x, y - 1]);
+        }
+
+        return availableTypes[Random.Range(0, availableTypes.Count)];
+    }
 
     private Sprite GetCrystalSprite(CrystalType type)
     {
