@@ -245,6 +245,7 @@ public class BoardManager : MonoBehaviour
 
         matchedPositions.Clear();
         DropCrystals();
+        FillEmptySpaces();
     }
 
     private bool FindMatchesAt(int x, int y, bool horizontal)
@@ -409,12 +410,57 @@ public class BoardManager : MonoBehaviour
         Debug.Log("Kryształy spadły na niższe pola.");
     }
 
+    private void FillEmptySpaces()
+    {
+        for (int x = 0; x < Width; x++)
+        {
+            for (int y = 0; y < Height; y++)
+            {
+                if (board[x, y] != CrystalType.Empty)
+                    continue;
+
+                CrystalType type = GetRandomCrystalType(x, y);
+                board[x, y] = type;
+
+                GameObject crystal = Instantiate(
+                    crystalPrefab,
+                    new Vector3(
+                        (x - (Width - 1) / 2f) * 1.2f,
+                        (y - (Height - 1) / 2f) * 1.2f,
+                        0
+                    ),
+                    Quaternion.identity
+                );
+
+                crystal.transform.localScale =
+                    new Vector3(0.10f, 0.10f, 1f);
+
+                SpriteRenderer renderer =
+                    crystal.GetComponent<SpriteRenderer>();
+
+                renderer.sprite = GetCrystalSprite(type);
+
+                Crystal crystalComponent = crystal.GetComponent<Crystal>();
+
+                if (crystalComponent == null)
+                {
+                    Debug.LogError("Prefab kryształu nie zawiera komponentu Crystal!");
+                    Destroy(crystal);
+                    board[x, y] = CrystalType.Empty;
+                    continue;
+                }
+
+                crystalComponent.Initialize(x, y, this);
+                crystals[x, y] = crystalComponent;
+            }
+        }
+
+        Debug.Log("Uzupełniono puste pola nowymi kryształami.");
+    }
 
     // Update is called once per frame
     void Update()
     {
         
     }
-
-
 }
