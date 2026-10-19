@@ -34,10 +34,12 @@ public class BoardManager : MonoBehaviour
 
     private Crystal selectedCrystal;
 
+    private int comboLevel = 0;
+
     void Start()
     {
-        Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
-        Debug.Log($"Liczba pól na planszy {board.Length}");
+        //Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
+        //Debug.Log($"Liczba pól na planszy {board.Length}");
         CreateBoard();
     }
 
@@ -139,7 +141,7 @@ public class BoardManager : MonoBehaviour
         if (selectedCrystal == null)
         {
             selectedCrystal = crystal;
-            Debug.Log($"pierwszy krysztal");
+            //Debug.Log($"pierwszy krysztal");
 
             return;
         }
@@ -147,7 +149,7 @@ public class BoardManager : MonoBehaviour
         if (selectedCrystal == crystal)
         {
             selectedCrystal = null;
-            Debug.Log("Anulowano wybór");
+            //Debug.Log("Anulowano wybór");
             return;
         }
 
@@ -157,7 +159,7 @@ public class BoardManager : MonoBehaviour
         if(distanceX + distanceY == 1)
         {
             StartCoroutine(SwapCrystals(selectedCrystal, crystal));
-            Debug.Log($"Drugi krysztal");
+            //Debug.Log($"Drugi krysztal");
             selectedCrystal = null;
         }
         else 
@@ -193,7 +195,7 @@ public class BoardManager : MonoBehaviour
         first.Initialize(secondX, secondY, this);
         second.Initialize(firstX, firstY, this);
 
-        Debug.Log("Kryształy zamieniły się miejscami");
+        //Debug.Log("Kryształy zamieniły się miejscami");
 
         yield return new WaitForSeconds(0.5f);
 
@@ -218,9 +220,12 @@ public class BoardManager : MonoBehaviour
 
             matchedPositions.Clear();
 
-            Debug.Log("Brak dopasowania. Cofnięto zamianę.");
+            //Debug.Log("Brak dopasowania. Cofnięto zamianę.");
             yield break;
         }
+
+        comboLevel = 1;
+        Debug.Log($"Poziom combo: {comboLevel}");
 
         // Szukamy połączonych dopasowań, w tym T i L.
         ExpandMatches();
@@ -238,14 +243,65 @@ public class BoardManager : MonoBehaviour
             crystals[position.x, position.y] = null;
             board[position.x, position.y] = CrystalType.Empty;
 
-            Debug.Log(
-                $"Usunięto kryształ: X={position.x}, Y={position.y}"
-            );
+            //Debug.Log(
+            //    $"Usunięto kryształ: X={position.x}, Y={position.y}"
+            //);
         }
 
         matchedPositions.Clear();
-        DropCrystals();
-        FillEmptySpaces();
+
+        while (true)
+        {
+            DropCrystals();
+            FillEmptySpaces();
+
+            yield return new WaitForSeconds(0.3f);
+
+            matchedPositions.Clear();
+
+            for (int x = 0; x < Width; x++)
+            {
+                for (int y = 0; y < Height; y++)
+                {
+                    FindMatchesAt(x, y, true);
+                    FindMatchesAt(x, y, false);
+                }
+            }
+
+            if (matchedPositions.Count == 0) 
+            {
+                //Debug.Log("Combo zakończone");
+                comboLevel = 0;
+                break;
+            }
+
+            comboLevel++;
+
+            Debug.Log($"Poziom combo: {comboLevel}");
+
+
+            ExpandMatches();
+
+
+            Debug.Log(
+                $"Combo! Usuwam {matchedPositions.Count} kryształów."
+            );
+
+            foreach (Vector2Int position in matchedPositions) 
+            {
+                Crystal crystal = crystals[position.x, position.y];
+
+                if(crystal != null)
+                {  
+                    Destroy(crystal.gameObject); 
+                }
+
+                crystals[position.x, position.y] = null;
+                board[position.x, position.y] = CrystalType.Empty;
+            }
+
+            matchedPositions.Clear();
+        }
     }
 
     private bool FindMatchesAt(int x, int y, bool horizontal)
@@ -407,7 +463,7 @@ public class BoardManager : MonoBehaviour
             }
         }
 
-        Debug.Log("Kryształy spadły na niższe pola.");
+        //Debug.Log("Kryształy spadły na niższe pola.");
     }
 
     private void FillEmptySpaces()
@@ -455,7 +511,7 @@ public class BoardManager : MonoBehaviour
             }
         }
 
-        Debug.Log("Uzupełniono puste pola nowymi kryształami.");
+        //Debug.Log("Uzupełniono puste pola nowymi kryształami.");
     }
 
     // Update is called once per frame

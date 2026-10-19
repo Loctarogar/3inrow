@@ -33,14 +33,14 @@ public class Crystal : MonoBehaviour
 
             if (hit != null && hit.gameObject == gameObject)
             {
-                Debug.Log("Kliknięto kryształ");
+                //Debug.Log("Kliknięto kryształ");
                 if (boardManager!= null)
                 {
                     boardManager.SelectCrystal(this);
                 }
                 else
                 {
-                    Debug.LogError("boardManager nie został przypisany");
+                    //Debug.LogError("boardManager nie został przypisany");
                 }
             }
         }
