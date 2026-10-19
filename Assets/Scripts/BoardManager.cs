@@ -244,6 +244,7 @@ public class BoardManager : MonoBehaviour
         }
 
         matchedPositions.Clear();
+        DropCrystals();
     }
 
     private bool FindMatchesAt(int x, int y, bool horizontal)
@@ -370,10 +371,50 @@ public class BoardManager : MonoBehaviour
         }
     }
 
+    private void DropCrystals()
+    {
+        for (int x = 0; x < Width; x++)
+        {
+            int targetY = 0;
+
+            for (int y = 0; y < Height; y++)
+            {
+                if (board[x, y] == CrystalType.Empty)
+                    continue;
+
+                if (targetY != y)
+                {
+                    CrystalType type = board[x, y];
+                    Crystal crystal = crystals[x, y];
+
+                    board[x, targetY] = type;
+                    crystals[x, targetY] = crystal;
+
+                    board[x, y] = CrystalType.Empty;
+                    crystals[x, y] = null;
+
+                    crystal.transform.position = new Vector3(
+                        (x - (Width - 1) / 2f) * 1.2f,
+                        (targetY - (Height - 1) / 2f) * 1.2f,
+                        0
+                    );
+
+                    crystal.Initialize(x, targetY, this);
+                }
+
+                targetY++;
+            }
+        }
+
+        Debug.Log("Kryształy spadły na niższe pola.");
+    }
+
 
     // Update is called once per frame
     void Update()
     {
         
     }
+
+
 }
