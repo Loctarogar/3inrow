@@ -199,8 +199,14 @@ public class BoardManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        // Sprawdzamy pierwszą klikniętą figurę w nowej pozycji.
-        if (!FindAllMatchesAt(secondX, secondY))
+        matchedPositions.Clear();
+
+        // Sprawdzamy obie kliknięte figury w nowych pozycjach.
+
+        bool firstMatch = FindAllMatchesAt(firstX, secondY);
+        bool secondMatch = FindAllMatchesAt(secondX, secondY);
+
+        if (!firstMatch && !secondMatch)
         {
             // Brak dopasowania: cofamy zamianę.
             tempType = board[firstX, firstY];
@@ -382,8 +388,6 @@ public class BoardManager : MonoBehaviour
 
     private bool FindAllMatchesAt(int x, int y)
     {
-        matchedPositions.Clear();
-
         bool horizontalMatch = FindMatchesAt(x, y, true);
         bool verticalMatch = FindMatchesAt(x, y, false);
 
