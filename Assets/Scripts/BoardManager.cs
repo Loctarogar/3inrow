@@ -394,7 +394,6 @@ public class BoardManager : MonoBehaviour
         return horizontalMatch || verticalMatch;
     }
 
-
     private void ExpandMatches()
     {
         HashSet<Vector2Int> checkedPositions = new HashSet<Vector2Int>();
