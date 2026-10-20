@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class BoardManager : MonoBehaviour
 {
     [SerializeField] private GameObject crystalPrefab;
+    [SerializeField] private RuntimeAnimatorController redCrystalController;
     [SerializeField] private Sprite redCrystal;
     [SerializeField] private Sprite blueCrystal;
     [SerializeField] private Sprite greenCrystal;
@@ -43,46 +44,61 @@ public class BoardManager : MonoBehaviour
         CreateBoard();
     }
 
+
     private void CreateBoard()
-{
-    for (int x = 0; x < Width; x++)
     {
-        for (int y = 0; y < Height; y++)
+        for (int x = 0; x < Width; x++)
         {
-            //CrystalType type = (CrystalType)Random.Range(0, 6);
-            CrystalType type = GetRandomCrystalType(x, y);
-
-            board[x, y] = type;
-
-            GameObject crystal = Instantiate(
-                crystalPrefab,
-                new Vector3(
-                    (x - (Width - 1) / 2f) * 1.2f,
-                    (y - (Height - 1) / 2f) * 1.2f,
-                    0
-                ),
-                Quaternion.identity
-            );
-
-            crystal.transform.localScale =
-                new Vector3(0.10f, 0.10f, 1f);
-
-            SpriteRenderer renderer =
-                crystal.GetComponent<SpriteRenderer>();
-
-            renderer.sprite = GetCrystalSprite(type);
-
-            Crystal crystalComponent = crystal.GetComponent<Crystal>();
-            if (crystalComponent == null) 
+            for (int y = 0; y < Height; y++)
             {
-                    Debug.LogError($"{crystal.name}");
+                // CrystalType type = (CrystalType)Random.Range(0, 6);
+                CrystalType type = GetRandomCrystalType(x, y);
+
+                board[x, y] = type;
+
+                GameObject crystal = Instantiate(
+                    crystalPrefab,
+                    new Vector3(
+                        (x - (Width - 1) / 2f) * 1.2f,
+                        (y - (Height - 1) / 2f) * 1.2f,
+                        0
+                    ),
+                    Quaternion.identity
+                );
+
+                crystal.transform.localScale =
+                    new Vector3(0.10f, 0.10f, 1f);
+
+                SpriteRenderer renderer =
+                    crystal.GetComponent<SpriteRenderer>();
+
+                renderer.sprite = GetCrystalSprite(type);
+
+                Crystal crystalComponent =
+                    crystal.GetComponent<Crystal>();
+
+                if (crystalComponent == null)
+                {
+                    Debug.LogError(
+                        "Prefab kryształu nie zawiera komponentu Crystal!"
+                    );
                     continue;
+                }
+
+                crystalComponent.Initialize(x, y, this);
+
+                if (type == CrystalType.Red)
+                {
+                    crystalComponent.PlayRedIdleAnimation(
+                        redCrystalController
+                    );
+                }
+
+                crystals[x, y] = crystalComponent;
             }
-            crystalComponent.Initialize(x, y, this);
-            crystals[x, y] = crystalComponent;
         }
     }
-}
+
 
     private CrystalType GetRandomCrystalType(int x, int y)
     {
@@ -500,6 +516,11 @@ public class BoardManager : MonoBehaviour
                 renderer.sprite = GetCrystalSprite(type);
 
                 Crystal crystalComponent = crystal.GetComponent<Crystal>();
+
+                if (crystalComponent != null && type == CrystalType.Red)
+                {
+                    crystalComponent.PlayRedIdleAnimation(redCrystalController);
+                }
 
                 if (crystalComponent == null)
                 {

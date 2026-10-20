@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7106037290306225522}
   - component: {fileID: -6365209799401398441}
   - component: {fileID: 6845737844143113958}
+  - component: {fileID: 2235301986536584140}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -151,3 +152,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ecc388ad84c5d54090563f227c73eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crystal
+--- !u!95 &2235301986536584140
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5769216497347391796}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

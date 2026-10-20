@@ -8,18 +8,35 @@ public class Crystal : MonoBehaviour
 
     private BoardManager boardManager;
 
+    private Animator animator;
+
     public void Initialize(int x, int y, BoardManager manager)
     {
         X = x;
         Y = y;
 
         boardManager = manager;
+        animator = GetComponent<Animator>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     //void Start()
     //{
 
     //}
+
+    public void PlayRedIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("RedCrystal_Idle", 0, 0f);
+    }
 
     //// Update is called once per frame
     void Update()
