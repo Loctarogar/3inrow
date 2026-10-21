@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 299f0e73a543cd14db0cfdf73294afae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1799179332789416321
+    second: BlueCrystalAni_0
+  - first:
+      213: 6164576648794862675
+    second: BlueCrystalAni_1
+  - first:
+      213: -1654479819538309120
+    second: BlueCrystalAni_2
+  - first:
+      213: -5997517520925950669
+    second: BlueCrystalAni_3
+  - first:
+      213: 2879417690591361030
+    second: BlueCrystalAni_4
+  - first:
+      213: -6335038353031571709
+    second: BlueCrystalAni_5
+  - first:
+      213: -2983934516578210758
+    second: BlueCrystalAni_6
+  - first:
+      213: -3513005648267750887
+    second: BlueCrystalAni_7
+  - first:
+      213: 3327360730365279405
+    second: BlueCrystalAni_8
+  - first:
+      213: -440432170826662229
+    second: BlueCrystalAni_9
+  - first:
+      213: -4697691749830665757
+    second: BlueCrystalAni_10
+  - first:
+      213: -2521302467048018361
+    second: BlueCrystalAni_11
+  - first:
+      213: -6246554684912667549
+    second: BlueCrystalAni_12
+  - first:
+      213: -7161317854544911127
+    second: BlueCrystalAni_13
+  - first:
+      213: -1380794062755582162
+    second: BlueCrystalAni_14
+  - first:
+      213: -3503319768247439593
+    second: BlueCrystalAni_15
+  - first:
+      213: 5652398591679442720
+    second: BlueCrystalAni_16
+  - first:
+      213: -5919857201054874317
+    second: BlueCrystalAni_17
+  - first:
+      213: 5174596117124153900
+    second: BlueCrystalAni_18
+  - first:
+      213: 7131217673227135401
+    second: BlueCrystalAni_19
+  - first:
+      213: -2515806516352322650
+    second: BlueCrystalAni_20
+  - first:
+      213: 8731070881495923292
+    second: BlueCrystalAni_21
+  - first:
+      213: 2827483555095423364
+    second: BlueCrystalAni_22
+  - first:
+      213: 6113691360561612677
+    second: BlueCrystalAni_23
+  - first:
+      213: -1354458532522290199
+    second: BlueCrystalAni_24
+  - first:
+      213: -4445648368838215165
+    second: BlueCrystalAni_25
+  - first:
+      213: 5100046684679800415
+    second: BlueCrystalAni_26
+  - first:
+      213: 8857598349978170723
+    second: BlueCrystalAni_27
+  - first:
+      213: 6808866855452414668
+    second: BlueCrystalAni_28
+  - first:
+      213: 3563609767988551243
+    second: BlueCrystalAni_29
+  - first:
+      213: -6262397557828554006
+    second: BlueCrystalAni_30
+  - first:
+      213: -3107816616688377111
+    second: BlueCrystalAni_31
+  - first:
+      213: -4773595813659833981
+    second: BlueCrystalAni_32
+  - first:
+      213: -9012069532646004948
+    second: BlueCrystalAni_33
+  - first:
+      213: 2295360969456311055
+    second: BlueCrystalAni_34
+  - first:
+      213: 1240046752466388818
+    second: BlueCrystalAni_35
+  - first:
+      213: -7652691503944099960
+    second: BlueCrystalAni_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueCrystalAni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 317
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7eccd5ede70807e0800000000000000
+      internalID: -1799179332789416321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 907
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354f51efcc9fc8550800000000000000
+      internalID: 6164576648794862675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 907
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000ed54be5b1a09e0800000000000000
+      internalID: -1654479819538309120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 907
+        width: 317
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df607479984cca0800000000000000
+      internalID: -5997517520925950669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 317
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6087caf322fb5f720800000000000000
+      internalID: 2879417690591361030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 599
+        width: 317
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307d311be2c6518a0800000000000000
+      internalID: -6335038353031571709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_6
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 600
+        width: 317
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c2452ed5fe696d0800000000000000
+      internalID: -2983934516578210758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 600
+        width: 317
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9125f01c9fb4f3fc0800000000000000
+      internalID: -3513005648267750887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 317
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacb10584f82d2e20800000000000000
+      internalID: 3327360730365279405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 299
+        width: 317
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baef83e264543e9f0800000000000000
+      internalID: -440432170826662229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 297
+        width: 317
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e95f033e327eceb0800000000000000
+      internalID: -4697691749830665757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_11
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 299
+        width: 317
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e6940c3c8820dd0800000000000000
+      internalID: -2521302467048018361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3647ab71c97cf49a0800000000000000
+      internalID: -6246554684912667549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 317
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e420348a53ed9c90800000000000000
+      internalID: -7161317854544911127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_14
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f2c7d9d1f66dce0800000000000000
+      internalID: -1380794062755582162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCrystalAni_15
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fe10f6b35b16fc0800000000000000
+      internalID: -3503319768247439593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 830e30821b11e7d4fb877c01528aa2f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":317.0,"y":310.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BlueCrystalAni_0: -1799179332789416321
+      BlueCrystalAni_1: 6164576648794862675
+      BlueCrystalAni_10: -4697691749830665757
+      BlueCrystalAni_11: -2521302467048018361
+      BlueCrystalAni_12: -6246554684912667549
+      BlueCrystalAni_13: -7161317854544911127
+      BlueCrystalAni_14: -1380794062755582162
+      BlueCrystalAni_15: -3503319768247439593
+      BlueCrystalAni_2: -1654479819538309120
+      BlueCrystalAni_3: -5997517520925950669
+      BlueCrystalAni_4: 2879417690591361030
+      BlueCrystalAni_5: -6335038353031571709
+      BlueCrystalAni_6: -2983934516578210758
+      BlueCrystalAni_7: -3513005648267750887
+      BlueCrystalAni_8: 3327360730365279405
+      BlueCrystalAni_9: -440432170826662229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

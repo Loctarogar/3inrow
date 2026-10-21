@@ -194,6 +194,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BoardManager
   crystalPrefab: {fileID: 5769216497347391796, guid: 08dcec75fbd2bff4098f5c51179b8719, type: 3}
   redCrystalController: {fileID: 9100000, guid: 3da80e102d67e9b45ba8d660693f93f9, type: 2}
+  greenCrystalController: {fileID: 9100000, guid: dd18c5e98b14b694ea917dfe2235a77d, type: 2}
+  yellowCrystalController: {fileID: 9100000, guid: 665a6d352c730344dbe75ae7043facf2, type: 2}
+  unicolorCrystalController: {fileID: 9100000, guid: 81943c0ebdbb9544b9365a83102f22b8, type: 2}
+  blueCrystalController: {fileID: 9100000, guid: 60fc29c16b2d48a4b859d5de5901ecf4, type: 2}
+  purpleCrystalController: {fileID: 9100000, guid: 55ecf0e261055094dbf2a2f5a13cf88f, type: 2}
   redCrystal: {fileID: 21300000, guid: 5884f456a64e68140a1e6d1dbf405f9c, type: 3}
   blueCrystal: {fileID: 21300000, guid: 7b3ce99f10593344fb2064d3d1631057, type: 3}
   greenCrystal: {fileID: 21300000, guid: e03f32413a500394094869c2bfe5be93, type: 3}

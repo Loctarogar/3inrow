@@ -6,6 +6,11 @@ public class BoardManager : MonoBehaviour
 {
     [SerializeField] private GameObject crystalPrefab;
     [SerializeField] private RuntimeAnimatorController redCrystalController;
+    [SerializeField] private RuntimeAnimatorController greenCrystalController;
+    [SerializeField] private RuntimeAnimatorController yellowCrystalController;
+    [SerializeField] private RuntimeAnimatorController unicolorCrystalController;
+    [SerializeField] private RuntimeAnimatorController blueCrystalController;
+    [SerializeField] private RuntimeAnimatorController purpleCrystalController;
     [SerializeField] private Sprite redCrystal;
     [SerializeField] private Sprite blueCrystal;
     [SerializeField] private Sprite greenCrystal;
@@ -67,7 +72,7 @@ public class BoardManager : MonoBehaviour
                 );
 
                 crystal.transform.localScale =
-                    new Vector3(0.10f, 0.10f, 1f);
+                    new Vector3(0.2f, 0.2f, 1f);
 
                 SpriteRenderer renderer =
                     crystal.GetComponent<SpriteRenderer>();
@@ -89,9 +94,28 @@ public class BoardManager : MonoBehaviour
 
                 if (type == CrystalType.Red)
                 {
-                    crystalComponent.PlayRedIdleAnimation(
-                        redCrystalController
-                    );
+                    crystalComponent.PlayRedIdleAnimation(redCrystalController);
+
+                }
+                else if (type == CrystalType.Green)
+                {
+                    crystalComponent.PlayGreenIdleAnimation(greenCrystalController);
+                }
+                else if (type == CrystalType.Yellow)
+                {
+                    crystalComponent.PlayYellowIdleAnimation(yellowCrystalController);
+                }
+                else if (type == CrystalType.Universal) 
+                {
+                    crystalComponent.PlayUnicolorIdleAnimation(unicolorCrystalController);
+                }
+                else if (type == CrystalType.Blue)
+                {
+                    crystalComponent.PlayBlueIdleAnimation(blueCrystalController);
+                }
+                else if (type == CrystalType.Purple)
+                {
+                    crystalComponent.PlayPurpleIdleAnimation(purpleCrystalController);
                 }
 
                 crystals[x, y] = crystalComponent;
@@ -183,7 +207,6 @@ public class BoardManager : MonoBehaviour
             selectedCrystal = null;
         }
     }
-
 
     private IEnumerator SwapCrystals(Crystal first, Crystal second)
     {
@@ -517,9 +540,32 @@ public class BoardManager : MonoBehaviour
 
                 Crystal crystalComponent = crystal.GetComponent<Crystal>();
 
-                if (crystalComponent != null && type == CrystalType.Red)
+                if (crystalComponent != null)
                 {
-                    crystalComponent.PlayRedIdleAnimation(redCrystalController);
+                    if (type == CrystalType.Red)
+                    {
+                        crystalComponent.PlayRedIdleAnimation(redCrystalController);
+                    }
+                    else if (type == CrystalType.Green)
+                    {
+                        crystalComponent.PlayGreenIdleAnimation(greenCrystalController);
+                    }
+                    else if (type == CrystalType.Yellow)
+                    { 
+                        crystalComponent.PlayYellowIdleAnimation(yellowCrystalController);
+                    }
+                    else if (type == CrystalType.Blue)
+                    {
+                        crystalComponent.PlayBlueIdleAnimation(blueCrystalController);
+                    }
+                    else if (type == CrystalType.Universal)
+                    {
+                        crystalComponent.PlayUnicolorIdleAnimation(unicolorCrystalController);
+                    }
+                    else if (type == CrystalType.Purple)
+                    {
+                        crystalComponent.PlayPurpleIdleAnimation(purpleCrystalController);
+                    }
                 }
 
                 if (crystalComponent == null)

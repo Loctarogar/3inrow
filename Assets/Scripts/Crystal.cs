@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.XR;
 
 public class Crystal : MonoBehaviour
 {
@@ -36,6 +37,76 @@ public class Crystal : MonoBehaviour
         animator.runtimeAnimatorController = controller;
         animator.enabled = true;
         animator.Play("RedCrystal_Idle", 0, 0f);
+    }
+
+    public void PlayGreenIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("GreenCrystalAnimation", 0, 0f);
+    }
+
+    public void PlayYellowIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("YellowCrystal_Idle", 0, 0f);
+    }
+
+    public void PlayUnicolorIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("UnicolorCrystal_Idle", 0, 0f);
+    }
+
+    public void PlayBlueIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("BlueCrystal_Idle", 0, 0f);
+    }
+
+    public void PlayPurpleIdleAnimation(RuntimeAnimatorController controller)
+    {
+        animator = GetComponent<Animator>();
+
+        if (animator == null || controller == null)
+        {
+            return;
+        }
+
+        animator.runtimeAnimatorController = controller;
+        animator.enabled = true;
+        animator.Play("PurpleCrystal_Idle", 0, 0f);
     }
 
     //// Update is called once per frame

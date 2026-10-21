@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: be747ff1605bdac439c301ee96812e40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4116148119925725953
+    second: VioletCrystalAni_0
+  - first:
+      213: 3058624639061112350
+    second: VioletCrystalAni_1
+  - first:
+      213: 5082884248747666397
+    second: VioletCrystalAni_2
+  - first:
+      213: -3056040219421113634
+    second: VioletCrystalAni_3
+  - first:
+      213: -8757663235811566520
+    second: VioletCrystalAni_4
+  - first:
+      213: 5468626338053080765
+    second: VioletCrystalAni_5
+  - first:
+      213: -315263256737687602
+    second: VioletCrystalAni_6
+  - first:
+      213: 2706900575668290677
+    second: VioletCrystalAni_7
+  - first:
+      213: -8018186337543952946
+    second: VioletCrystalAni_8
+  - first:
+      213: 2126969409518255350
+    second: VioletCrystalAni_9
+  - first:
+      213: 7866214828764167210
+    second: VioletCrystalAni_10
+  - first:
+      213: 2574457755218900565
+    second: VioletCrystalAni_11
+  - first:
+      213: -5097154703127629213
+    second: VioletCrystalAni_12
+  - first:
+      213: -5663457317115713610
+    second: VioletCrystalAni_13
+  - first:
+      213: 408618184325997320
+    second: VioletCrystalAni_14
+  - first:
+      213: -5454466357527633545
+    second: VioletCrystalAni_15
+  - first:
+      213: 7139214793954744109
+    second: VioletCrystalAni_16
+  - first:
+      213: 6748333250241355012
+    second: VioletCrystalAni_17
+  - first:
+      213: -3542236560099994596
+    second: VioletCrystalAni_18
+  - first:
+      213: 4644182319375497879
+    second: VioletCrystalAni_19
+  - first:
+      213: -1186514597563242323
+    second: VioletCrystalAni_20
+  - first:
+      213: -3872795814125727600
+    second: VioletCrystalAni_21
+  - first:
+      213: 5502570237647247768
+    second: VioletCrystalAni_22
+  - first:
+      213: 6928068288769928122
+    second: VioletCrystalAni_23
+  - first:
+      213: -5165915780000699810
+    second: VioletCrystalAni_24
+  - first:
+      213: 7056223782367021774
+    second: VioletCrystalAni_25
+  - first:
+      213: -2791247705912886108
+    second: VioletCrystalAni_26
+  - first:
+      213: 5550774128608221220
+    second: VioletCrystalAni_27
+  - first:
+      213: -3660274565599544428
+    second: VioletCrystalAni_28
+  - first:
+      213: -7267717299396866492
+    second: VioletCrystalAni_29
+  - first:
+      213: 368746201444509020
+    second: VioletCrystalAni_30
+  - first:
+      213: -8651202519881421435
+    second: VioletCrystalAni_31
+  - first:
+      213: 7699124892579266490
+    second: VioletCrystalAni_32
+  - first:
+      213: -7970323175446171676
+    second: VioletCrystalAni_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VioletCrystalAni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b901328ee7f1930800000000000000
+      internalID: 4116148119925725953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 441
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16be7867ea627a20800000000000000
+      internalID: 3058624639061112350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 441
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb68014b480a8640800000000000000
+      internalID: 5082884248747666397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 441
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2091eac93c695d0800000000000000
+      internalID: -3056040219421113634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c14f6efa7867680800000000000000
+      internalID: -8757663235811566520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 295
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6cff03ea674eb40800000000000000
+      internalID: 5468626338053080765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 295
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7da630db5ff9bf0800000000000000
+      internalID: -315263256737687602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 295
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57442075bb7d09520800000000000000
+      internalID: 2706900575668290677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec56dc7120ea9b090800000000000000
+      internalID: -8018186337543952946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 149
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc3576a863848d10800000000000000
+      internalID: 2126969409518255350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 149
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cf563b5b86a2d60800000000000000
+      internalID: 7866214828764167210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 149
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556721530bf4ab320800000000000000
+      internalID: 2574457755218900565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362bddaadc44349b0800000000000000
+      internalID: -5097154703127629213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b72bbc839b5761b0800000000000000
+      internalID: -5663457317115713610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803248dd214bba500800000000000000
+      internalID: 408618184325997320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VioletCrystalAni_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7712f303fb7dd44b0800000000000000
+      internalID: -5454466357527633545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bdf37ea1d440f9b4fba01242cca109b8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":150.0,"y":146.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      VioletCrystalAni_0: 4116148119925725953
+      VioletCrystalAni_1: 3058624639061112350
+      VioletCrystalAni_10: 7866214828764167210
+      VioletCrystalAni_11: 2574457755218900565
+      VioletCrystalAni_12: -5097154703127629213
+      VioletCrystalAni_13: -5663457317115713610
+      VioletCrystalAni_14: 408618184325997320
+      VioletCrystalAni_15: -5454466357527633545
+      VioletCrystalAni_2: 5082884248747666397
+      VioletCrystalAni_3: -3056040219421113634
+      VioletCrystalAni_4: -8757663235811566520
+      VioletCrystalAni_5: 5468626338053080765
+      VioletCrystalAni_6: -315263256737687602
+      VioletCrystalAni_7: 2706900575668290677
+      VioletCrystalAni_8: -8018186337543952946
+      VioletCrystalAni_9: 2126969409518255350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

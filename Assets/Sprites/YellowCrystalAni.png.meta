@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 65e5436dd891bea4e8f25b981d8fecdf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7194776143322206793
+    second: YellowCrystalAni_0
+  - first:
+      213: -1171651469943890108
+    second: YellowCrystalAni_1
+  - first:
+      213: 7614799627104333468
+    second: YellowCrystalAni_2
+  - first:
+      213: 6890400755819952444
+    second: YellowCrystalAni_3
+  - first:
+      213: 74062410119563092
+    second: YellowCrystalAni_4
+  - first:
+      213: 24587089852129169
+    second: YellowCrystalAni_5
+  - first:
+      213: -1255432098834400636
+    second: YellowCrystalAni_6
+  - first:
+      213: -7810832937167716394
+    second: YellowCrystalAni_7
+  - first:
+      213: -1786882586772639462
+    second: YellowCrystalAni_8
+  - first:
+      213: 1090120455489546801
+    second: YellowCrystalAni_9
+  - first:
+      213: -505452566229876534
+    second: YellowCrystalAni_10
+  - first:
+      213: 7255796629081035284
+    second: YellowCrystalAni_11
+  - first:
+      213: 3833678188671732939
+    second: YellowCrystalAni_12
+  - first:
+      213: 4677979284043712922
+    second: YellowCrystalAni_13
+  - first:
+      213: -195957153489863666
+    second: YellowCrystalAni_14
+  - first:
+      213: 253372809736033664
+    second: YellowCrystalAni_15
+  - first:
+      213: 2284416313208581454
+    second: YellowCrystalAni_16
+  - first:
+      213: -3026045453596587845
+    second: YellowCrystalAni_17
+  - first:
+      213: 7188278537045077782
+    second: YellowCrystalAni_18
+  - first:
+      213: 6589099424403553994
+    second: YellowCrystalAni_19
+  - first:
+      213: 736068712309188399
+    second: YellowCrystalAni_20
+  - first:
+      213: -3878601277737773148
+    second: YellowCrystalAni_21
+  - first:
+      213: -1108542929296169279
+    second: YellowCrystalAni_22
+  - first:
+      213: -5793340768514133808
+    second: YellowCrystalAni_23
+  - first:
+      213: -2615795187852072349
+    second: YellowCrystalAni_24
+  - first:
+      213: 7905521311892870786
+    second: YellowCrystalAni_25
+  - first:
+      213: -2901210495407657488
+    second: YellowCrystalAni_26
+  - first:
+      213: -6474373104854382843
+    second: YellowCrystalAni_27
+  - first:
+      213: 1285587279943172390
+    second: YellowCrystalAni_28
+  - first:
+      213: 8600152312203820181
+    second: YellowCrystalAni_29
+  - first:
+      213: 5642448656503721613
+    second: YellowCrystalAni_30
+  - first:
+      213: 8331933308407630792
+    second: YellowCrystalAni_31
+  - first:
+      213: -5714171374976962214
+    second: YellowCrystalAni_32
+  - first:
+      213: -7211618482031728939
+    second: YellowCrystalAni_33
+  - first:
+      213: 3521860274751470691
+    second: YellowCrystalAni_34
+  - first:
+      213: 4055016178246315641
+    second: YellowCrystalAni_35
+  - first:
+      213: 4711109115053343634
+    second: YellowCrystalAni_36
+  - first:
+      213: -5378709658616732405
+    second: YellowCrystalAni_37
+  - first:
+      213: 149793846424830715
+    second: YellowCrystalAni_38
+  - first:
+      213: 3973273887926394479
+    second: YellowCrystalAni_39
+  - first:
+      213: -8084572747840647193
+    second: YellowCrystalAni_40
+  - first:
+      213: 7172974080034306484
+    second: YellowCrystalAni_41
+  - first:
+      213: -8311175674476420135
+    second: YellowCrystalAni_42
+  - first:
+      213: 7084556530243929814
+    second: YellowCrystalAni_43
+  - first:
+      213: -8018223452291825681
+    second: YellowCrystalAni_44
+  - first:
+      213: 2075389614954725797
+    second: YellowCrystalAni_45
+  - first:
+      213: -8368839380719906213
+    second: YellowCrystalAni_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YellowCrystalAni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942dc2568caf8d360800000000000000
+      internalID: 7194776143322206793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f1e6d12357dbfe0800000000000000
+      internalID: -1171651469943890108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ea4597ae33da960800000000000000
+      internalID: 7614799627104333468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c393bb20bfe9f9f50800000000000000
+      internalID: 6890400755819952444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457c26e9e5f170100800000000000000
+      internalID: 74062410119563092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f52b4f3d9575000800000000000000
+      internalID: 24587089852129169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_6
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 620
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3a5d582fc39ee0800000000000000
+      internalID: -1255432098834400636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df7234c3d85a9390800000000000000
+      internalID: -7810832937167716394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11f51031c7b337e0800000000000000
+      internalID: -1786882586772639462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a67df47c2e02f00800000000000000
+      internalID: 1090120455489546801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 310
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac00f0ba1954cf8f0800000000000000
+      internalID: -505452566229876534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_11
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4121ade5794c1b460800000000000000
+      internalID: 7255796629081035284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc01fa3006f33530800000000000000
+      internalID: 3833678188671732939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 13
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99cf04bf558be040800000000000000
+      internalID: 4677979284043712922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 13
+        width: 317
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c3a03d102d74df0800000000000000
+      internalID: -195957153489863666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCrystalAni_15
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 15
+        width: 317
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0851f006a39248300800000000000000
+      internalID: 253372809736033664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 967ff1e5e24b8cd4390fc5f380cecba2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":317.0,"y":310.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      YellowCrystalAni_0: 7194776143322206793
+      YellowCrystalAni_1: -1171651469943890108
+      YellowCrystalAni_10: -505452566229876534
+      YellowCrystalAni_11: 7255796629081035284
+      YellowCrystalAni_12: 3833678188671732939
+      YellowCrystalAni_13: 4677979284043712922
+      YellowCrystalAni_14: -195957153489863666
+      YellowCrystalAni_15: 253372809736033664
+      YellowCrystalAni_2: 7614799627104333468
+      YellowCrystalAni_3: 6890400755819952444
+      YellowCrystalAni_4: 74062410119563092
+      YellowCrystalAni_5: 24587089852129169
+      YellowCrystalAni_6: -1255432098834400636
+      YellowCrystalAni_7: -7810832937167716394
+      YellowCrystalAni_8: -1786882586772639462
+      YellowCrystalAni_9: 1090120455489546801
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
