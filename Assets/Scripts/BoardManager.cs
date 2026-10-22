@@ -181,7 +181,7 @@ public class BoardManager : MonoBehaviour
         if (selectedCrystal == null)
         {
             selectedCrystal = crystal;
-            //Debug.Log($"pierwszy krysztal");
+            Debug.Log($"pierwszy krysztal");
 
             return;
         }
@@ -189,7 +189,7 @@ public class BoardManager : MonoBehaviour
         if (selectedCrystal == crystal)
         {
             selectedCrystal = null;
-            //Debug.Log("Anulowano wybór");
+            Debug.Log("Anulowano wybór");
             return;
         }
 
@@ -199,7 +199,7 @@ public class BoardManager : MonoBehaviour
         if(distanceX + distanceY == 1)
         {
             StartCoroutine(SwapCrystals(selectedCrystal, crystal));
-            //Debug.Log($"Drugi krysztal");
+            Debug.Log($"Drugi krysztal");
             selectedCrystal = null;
         }
         else 
@@ -242,7 +242,7 @@ public class BoardManager : MonoBehaviour
 
         // Sprawdzamy obie kliknięte figury w nowych pozycjach.
 
-        bool firstMatch = FindAllMatchesAt(firstX, secondY);
+        bool firstMatch = FindAllMatchesAt(firstX, firstY);
         bool secondMatch = FindAllMatchesAt(secondX, secondY);
 
         if (!firstMatch && !secondMatch)
@@ -288,9 +288,9 @@ public class BoardManager : MonoBehaviour
             crystals[position.x, position.y] = null;
             board[position.x, position.y] = CrystalType.Empty;
 
-            //Debug.Log(
-            //    $"Usunięto kryształ: X={position.x}, Y={position.y}"
-            //);
+            Debug.Log(
+                $"Usunięto kryształ: X={position.x}, Y={position.y}"
+            );
         }
 
         matchedPositions.Clear();
@@ -531,7 +531,7 @@ public class BoardManager : MonoBehaviour
                 );
 
                 crystal.transform.localScale =
-                    new Vector3(0.10f, 0.10f, 1f);
+                    new Vector3(0.2f, 0.2f, 1f);
 
                 SpriteRenderer renderer =
                     crystal.GetComponent<SpriteRenderer>();
@@ -581,7 +581,7 @@ public class BoardManager : MonoBehaviour
             }
         }
 
-        //Debug.Log("Uzupełniono puste pola nowymi kryształami.");
+        Debug.Log("Uzupełniono puste pola nowymi kryształami.");
     }
 
     // Update is called once per frame

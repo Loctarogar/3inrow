@@ -20,10 +20,10 @@ public class Crystal : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    //void Start()
-    //{
+    void Start()
+    {
 
-    //}
+    }
 
     public void PlayRedIdleAnimation(RuntimeAnimatorController controller)
     {
@@ -114,6 +114,7 @@ public class Crystal : MonoBehaviour
     {
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
+            
             Vector2 mousePosition = Mouse.current.position.ReadValue();
             Vector2 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
@@ -121,6 +122,7 @@ public class Crystal : MonoBehaviour
 
             if (hit != null && hit.gameObject == gameObject)
             {
+                Debug.Log($"Kliknięto kryształ: X={X}, Y={Y}, obiekt={gameObject.name}");
                 //Debug.Log("Kliknięto kryształ");
                 if (boardManager!= null)
                 {
@@ -128,9 +130,29 @@ public class Crystal : MonoBehaviour
                 }
                 else
                 {
-                    //Debug.LogError("boardManager nie został przypisany");
+                    Debug.LogError("boardManager nie został przypisany");
                 }
             }
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Collider2D crystalCollider = GetComponent<Collider2D>();
+
+        if (crystalCollider == null)
+        {
+            return;
+        }
+
+        Gizmos.color = Color.magenta;
+
+        Gizmos.DrawWireCube(
+    transform.position,
+    new Vector3(0.2f, 0.2f, 0f)
+);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, 0.05f);
     }
 }
