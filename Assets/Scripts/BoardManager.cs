@@ -64,8 +64,8 @@ public class BoardManager : MonoBehaviour
                 GameObject crystal = Instantiate(
                     crystalPrefab,
                     new Vector3(
-                        (x - (Width - 1) / 2f) * 1.2f,
-                        (y - (Height - 1) / 2f) * 1.2f,
+                        (x - (Width - 1) / 2f),
+                        (y - (Height - 1) / 2f),
                         0
                     ),
                     Quaternion.identity
@@ -493,8 +493,8 @@ public class BoardManager : MonoBehaviour
                     crystals[x, y] = null;
 
                     crystal.transform.position = new Vector3(
-                        (x - (Width - 1) / 2f) * 1.2f,
-                        (targetY - (Height - 1) / 2f) * 1.2f,
+                        (x - (Width - 1) / 2f),
+                        (targetY - (Height - 1) / 2f),
                         0
                     );
 
@@ -523,8 +523,8 @@ public class BoardManager : MonoBehaviour
                 GameObject crystal = Instantiate(
                     crystalPrefab,
                     new Vector3(
-                        (x - (Width - 1) / 2f) * 1.2f,
-                        (y - (Height - 1) / 2f) * 1.2f,
+                        (x - (Width - 1) / 2f),
+                        (y - (Height - 1) / 2f),
                         0
                     ),
                     Quaternion.identity
