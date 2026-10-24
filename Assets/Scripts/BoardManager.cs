@@ -49,6 +49,67 @@ public class BoardManager : MonoBehaviour
         CreateBoard();
     }
 
+    private Crystal CreateCrystal(int x, int y, CrystalType type)
+    {
+        GameObject crystalObject = Instantiate(
+            crystalPrefab,
+            new Vector3(
+                x - (Width - 1) / 2f,
+                y - (Height - 1) /2f,
+                0
+                ),
+            Quaternion.identity
+            );
+        crystalObject.transform.localScale = new Vector3(0.2f, 0.2f, 1f);
+
+        SpriteRenderer renderer = crystalObject.GetComponent<SpriteRenderer>();
+
+        renderer.sprite = GetCrystalSprite(type);
+
+        Crystal crystal = crystalObject.GetComponent<Crystal>();
+
+        if (crystal == null)
+        {
+            Debug.LogError("crystalPrefab krysztalu nie zawiera komponentu Crystal");
+            Destroy(crystalObject );
+
+            return null;
+        }
+
+        crystal.Initialize(x, y, this);
+
+        switch (type) 
+        {
+            case CrystalType.Red:
+                crystal.PlayRedIdleAnimation(redCrystalController);
+                break;
+
+            case CrystalType.Green:
+                crystal.PlayGreenIdleAnimation(greenCrystalController);
+                break;
+
+            case CrystalType.Yellow:
+                crystal.PlayYellowIdleAnimation(yellowCrystalController);
+                break;
+
+            case CrystalType.Blue:
+                crystal.PlayBlueIdleAnimation(blueCrystalController);
+                break;
+
+            case CrystalType.Purple:
+                crystal.PlayPurpleIdleAnimation(purpleCrystalController);
+                break;
+
+            case CrystalType.Universal:
+                crystal.PlayUnicolorIdleAnimation(unicolorCrystalController);
+                break;
+        }
+
+        board[x, y] = type;
+        crystals[x, y] = crystal;
+
+        return crystal;
+    }
 
     private void CreateBoard()
     {
@@ -56,69 +117,9 @@ public class BoardManager : MonoBehaviour
         {
             for (int y = 0; y < Height; y++)
             {
-                // CrystalType type = (CrystalType)Random.Range(0, 6);
                 CrystalType type = GetRandomCrystalType(x, y);
 
-                board[x, y] = type;
-
-                GameObject crystal = Instantiate(
-                    crystalPrefab,
-                    new Vector3(
-                        (x - (Width - 1) / 2f),
-                        (y - (Height - 1) / 2f),
-                        0
-                    ),
-                    Quaternion.identity
-                );
-
-                crystal.transform.localScale =
-                    new Vector3(0.2f, 0.2f, 1f);
-
-                SpriteRenderer renderer =
-                    crystal.GetComponent<SpriteRenderer>();
-
-                renderer.sprite = GetCrystalSprite(type);
-
-                Crystal crystalComponent =
-                    crystal.GetComponent<Crystal>();
-
-                if (crystalComponent == null)
-                {
-                    Debug.LogError(
-                        "Prefab kryształu nie zawiera komponentu Crystal!"
-                    );
-                    continue;
-                }
-
-                crystalComponent.Initialize(x, y, this);
-
-                if (type == CrystalType.Red)
-                {
-                    crystalComponent.PlayRedIdleAnimation(redCrystalController);
-
-                }
-                else if (type == CrystalType.Green)
-                {
-                    crystalComponent.PlayGreenIdleAnimation(greenCrystalController);
-                }
-                else if (type == CrystalType.Yellow)
-                {
-                    crystalComponent.PlayYellowIdleAnimation(yellowCrystalController);
-                }
-                else if (type == CrystalType.Universal) 
-                {
-                    crystalComponent.PlayUnicolorIdleAnimation(unicolorCrystalController);
-                }
-                else if (type == CrystalType.Blue)
-                {
-                    crystalComponent.PlayBlueIdleAnimation(blueCrystalController);
-                }
-                else if (type == CrystalType.Purple)
-                {
-                    crystalComponent.PlayPurpleIdleAnimation(purpleCrystalController);
-                }
-
-                crystals[x, y] = crystalComponent;
+                CreateCrystal(x, y, type);
             }
         }
     }
@@ -518,71 +519,13 @@ public class BoardManager : MonoBehaviour
                     continue;
 
                 CrystalType type = GetRandomCrystalType(x, y);
-                board[x, y] = type;
-
-                GameObject crystal = Instantiate(
-                    crystalPrefab,
-                    new Vector3(
-                        (x - (Width - 1) / 2f),
-                        (y - (Height - 1) / 2f),
-                        0
-                    ),
-                    Quaternion.identity
-                );
-
-                crystal.transform.localScale =
-                    new Vector3(0.2f, 0.2f, 1f);
-
-                SpriteRenderer renderer =
-                    crystal.GetComponent<SpriteRenderer>();
-
-                renderer.sprite = GetCrystalSprite(type);
-
-                Crystal crystalComponent = crystal.GetComponent<Crystal>();
-
-                if (crystalComponent != null)
-                {
-                    if (type == CrystalType.Red)
-                    {
-                        crystalComponent.PlayRedIdleAnimation(redCrystalController);
-                    }
-                    else if (type == CrystalType.Green)
-                    {
-                        crystalComponent.PlayGreenIdleAnimation(greenCrystalController);
-                    }
-                    else if (type == CrystalType.Yellow)
-                    { 
-                        crystalComponent.PlayYellowIdleAnimation(yellowCrystalController);
-                    }
-                    else if (type == CrystalType.Blue)
-                    {
-                        crystalComponent.PlayBlueIdleAnimation(blueCrystalController);
-                    }
-                    else if (type == CrystalType.Universal)
-                    {
-                        crystalComponent.PlayUnicolorIdleAnimation(unicolorCrystalController);
-                    }
-                    else if (type == CrystalType.Purple)
-                    {
-                        crystalComponent.PlayPurpleIdleAnimation(purpleCrystalController);
-                    }
-                }
-
-                if (crystalComponent == null)
-                {
-                    Debug.LogError("Prefab kryształu nie zawiera komponentu Crystal!");
-                    Destroy(crystal);
-                    board[x, y] = CrystalType.Empty;
-                    continue;
-                }
-
-                crystalComponent.Initialize(x, y, this);
-                crystals[x, y] = crystalComponent;
+                CreateCrystal(x, y, type);
             }
         }
 
         Debug.Log("Uzupełniono puste pola nowymi kryształami.");
     }
+
 
     // Update is called once per frame
     void Update()
