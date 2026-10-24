@@ -5,6 +5,9 @@ using System.Collections.Generic;
 public class BoardManager : MonoBehaviour
 {
     [SerializeField] private GameObject crystalPrefab;
+    [SerializeField] private Transform crystalBoard;
+    [SerializeField] private float crystalSpacingX = 1f;
+    [SerializeField] private float crystalSpacingY = 1.15f;
     [SerializeField] private RuntimeAnimatorController redCrystalController;
     [SerializeField] private RuntimeAnimatorController greenCrystalController;
     [SerializeField] private RuntimeAnimatorController yellowCrystalController;
@@ -53,14 +56,16 @@ public class BoardManager : MonoBehaviour
     {
         GameObject crystalObject = Instantiate(
             crystalPrefab,
-            new Vector3(
-                x - (Width - 1) / 2f,
-                y - (Height - 1) /2f,
-                0
-                ),
-            Quaternion.identity
+            crystalBoard
             );
-        crystalObject.transform.localScale = new Vector3(0.2f, 0.2f, 1f);
+
+        crystalObject.transform.localPosition = new Vector3(
+            x - (Width - 1) / 2f * crystalSpacingX,
+            (y - (Height - 1) / 2f) * crystalSpacingY,
+            0
+        );
+
+        crystalObject.transform.localScale = new Vector3(0.3f, 0.3f, 1f);
 
         SpriteRenderer renderer = crystalObject.GetComponent<SpriteRenderer>();
 
@@ -493,9 +498,9 @@ public class BoardManager : MonoBehaviour
                     board[x, y] = CrystalType.Empty;
                     crystals[x, y] = null;
 
-                    crystal.transform.position = new Vector3(
-                        (x - (Width - 1) / 2f),
-                        (targetY - (Height - 1) / 2f),
+                    crystal.transform.localPosition = new Vector3(
+                        x - (Width - 1) / 2f,
+                        targetY - (Height - 1) / 2f,
                         0
                     );
 

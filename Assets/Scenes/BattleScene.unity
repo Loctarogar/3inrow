@@ -193,6 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoardManager
   crystalPrefab: {fileID: 5769216497347391796, guid: 08dcec75fbd2bff4098f5c51179b8719, type: 3}
+  crystalBoard: {fileID: 300242286}
   redCrystalController: {fileID: 9100000, guid: 3da80e102d67e9b45ba8d660693f93f9, type: 2}
   greenCrystalController: {fileID: 9100000, guid: dd18c5e98b14b694ea917dfe2235a77d, type: 2}
   yellowCrystalController: {fileID: 9100000, guid: 665a6d352c730344dbe75ae7043facf2, type: 2}
@@ -245,7 +246,7 @@ Transform:
   m_GameObject: {fileID: 300242285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.05669, y: -0.77941, z: 0}
+  m_LocalPosition: {x: 0, y: 2.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
