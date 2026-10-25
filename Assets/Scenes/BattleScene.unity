@@ -648,6 +648,7 @@ GameObject:
   - component: {fileID: 1802619146}
   - component: {fileID: 1802619148}
   - component: {fileID: 1802619147}
+  - component: {fileID: 1802619149}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -712,6 +713,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802619145}
   m_CullTransparentMesh: 1
+--- !u!114 &1802619149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802619145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa14a76ca7ef674f81c3fc64884ba8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CountryBackground
+  backgroundImage: {fileID: 0}
+  mechanisBackground: {fileID: 2747578577413660508, guid: 086900df3f9408f439d4bf719b46d6d3, type: 3}
+  eldoriaBackground: {fileID: 7325219087437262022, guid: 22b44560a43546644969e41aa284a005, type: 3}
 --- !u!1 &2111782233
 GameObject:
   m_ObjectHideFlags: 0
