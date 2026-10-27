@@ -149,6 +149,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   CurrentCountry: Mechanis
+  hero: {fileID: 285673333}
+  boardBacground: {fileID: 2111782233}
+  crystalBoard: {fileID: 300242285}
 --- !u!4 &33291936
 Transform:
   m_ObjectHideFlags: 0
@@ -240,7 +243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &285673334
 SpriteRenderer:
   serializedVersion: 2
@@ -330,7 +333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &300242286
 Transform:
   m_ObjectHideFlags: 0
@@ -836,7 +839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2111782234
 Transform:
   m_ObjectHideFlags: 0
