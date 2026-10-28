@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public string CurrentCountry = "Mechanis";
-
     [SerializeField] private GameObject hero;
     [SerializeField] private GameObject boardBacground;
     [SerializeField] private GameObject crystalBoard;

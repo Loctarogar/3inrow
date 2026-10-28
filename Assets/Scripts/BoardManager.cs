@@ -47,8 +47,6 @@ public class BoardManager : MonoBehaviour
 
     void Start()
     {
-        //Debug.Log($"3inrow: plansza {Width}x{Height} gotowa");
-        //Debug.Log($"Liczba pól na planszy {board.Length}");
         CreateBoard();
     }
 
@@ -531,8 +529,6 @@ public class BoardManager : MonoBehaviour
         Debug.Log("Uzupełniono puste pola nowymi kryształami.");
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         
