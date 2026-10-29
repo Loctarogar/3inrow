@@ -148,9 +148,9 @@ public class Crystal : MonoBehaviour
         Gizmos.color = Color.magenta;
 
         Gizmos.DrawWireCube(
-    transform.position,
-    new Vector3(0.2f, 0.2f, 0f)
-);
+            transform.position,
+            new Vector3(0.2f, 0.2f, 0f)
+        );
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, 0.05f);
