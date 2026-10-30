@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f72902de67adf342902c707b6c6ceb8
+guid: fe1936bd87892994e833ece8267bca5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1397332670584221000
-    second: MechanisHeroSelection_0
+      213: 4531558029412429738
+    second: HeroSelectionEldoria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MechanisHeroSelection_0
+      name: HeroSelectionEldoria_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 941
-        height: 1672
+        height: 1671
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b297c8e65dab9ce0800000000000000
-      internalID: -1397332670584221000
+      spriteID: aaf623eb40453ee30800000000000000
+      internalID: 4531558029412429738
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MechanisHeroSelection_0: -1397332670584221000
+      HeroSelectionEldoria_0: 4531558029412429738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
