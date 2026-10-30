@@ -761,7 +761,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 409225504}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719741643}
+        m_TargetAssemblyTypeName: HeroSelectionControlle, Assembly-CSharp
+        m_MethodName: SelectMechanis
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &409225504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -956,7 +968,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 567187821}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719741643}
+        m_TargetAssemblyTypeName: HeroSelectionControlle, Assembly-CSharp
+        m_MethodName: PreviousHero
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &567187821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2274,6 +2298,7 @@ GameObject:
   - component: {fileID: 1719741640}
   - component: {fileID: 1719741642}
   - component: {fileID: 1719741641}
+  - component: {fileID: 1719741643}
   m_Layer: 5
   m_Name: HeroSelectionPanel
   m_TagString: Untagged
@@ -2362,6 +2387,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719741639}
   m_CullTransparentMesh: 1
+--- !u!114 &1719741643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719741639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38aa35423a27ac244a072b9f5ce5bee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HeroSelectionControlle
 --- !u!1 &1726515710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2480,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1726515713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719741643}
+        m_TargetAssemblyTypeName: HeroSelectionControlle, Assembly-CSharp
+        m_MethodName: SelectEldoria
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1726515713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2701,7 +2750,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1882614408}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719741643}
+        m_TargetAssemblyTypeName: HeroSelectionControlle, Assembly-CSharp
+        m_MethodName: NextHero
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1882614408
 MonoBehaviour:
   m_ObjectHideFlags: 0
