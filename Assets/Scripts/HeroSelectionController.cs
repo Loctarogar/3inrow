@@ -22,7 +22,6 @@ public class HeroSelectionController : MonoBehaviour
         }
 
         SetHeroByIndeks(currentHeroIndex, currentHeroes);
-
         Debug.Log(currentHeroIndex);
     }
     public void PreviousHero()
@@ -74,7 +73,7 @@ public class HeroSelectionController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        SelectMechanis();
     }
 
     // Update is called once per frame

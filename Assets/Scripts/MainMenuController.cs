@@ -3,15 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    public void StartGame()
+    {
+        SceneManager.LoadScene("HeroSelection");
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
-    }
-
-    public void StartGame()
-    {
-        SceneManager.LoadScene("BattleScene");
     }
 
     // Update is called once per frame
