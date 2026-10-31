@@ -2406,6 +2406,7 @@ MonoBehaviour:
     heroAttack: 15
     heroDamage: 20
     heroMagic: 100
+    heroProtection: 5
     heroImage: {fileID: -7285376162372006033, guid: 2618abf7abb89074eb50f84dfbb0f9e4, type: 3}
   - heroName: Paladin
     heroDescription: Paladin of Eldoria
@@ -2413,6 +2414,7 @@ MonoBehaviour:
     heroAttack: 20
     heroDamage: 20
     heroMagic: 60
+    heroProtection: 5
     heroImage: {fileID: -8594515011827703002, guid: 4d44bcbc1663f1f4198703d297fcd43f, type: 3}
   - heroName: 'Rogue '
     heroDescription: Rogue of Eldoria
@@ -2420,6 +2422,7 @@ MonoBehaviour:
     heroAttack: 25
     heroDamage: 30
     heroMagic: 70
+    heroProtection: 5
     heroImage: {fileID: 4979363154352999712, guid: 83bffcf56ac90eb40800138d8b9da94d, type: 3}
   - heroName: Druid
     heroDescription: Druid of Eldoria
@@ -2427,6 +2430,7 @@ MonoBehaviour:
     heroAttack: 15
     heroDamage: 20
     heroMagic: 90
+    heroProtection: 5
     heroImage: {fileID: 3461459112936250053, guid: 1f2e2640ad9e90a4f994fb6849a2c0fc, type: 3}
   mechanisHeroes:
   - heroName: Gunner
@@ -2435,6 +2439,7 @@ MonoBehaviour:
     heroAttack: 25
     heroDamage: 30
     heroMagic: 50
+    heroProtection: 5
     heroImage: {fileID: 21300000, guid: dcee3eb625fb85b4cba8207136eed1ed, type: 3}
   - heroName: Exosute Operator
     heroDescription: Exosute Operator of Mechanis
@@ -2442,6 +2447,7 @@ MonoBehaviour:
     heroAttack: 20
     heroDamage: 20
     heroMagic: 50
+    heroProtection: 5
     heroImage: {fileID: -7780730447804343531, guid: 4a61df5fb25b77641a27d5e971380e0d, type: 3}
   - heroName: Inquizitor
     heroDescription: Inquizitor of Mechanis
@@ -2449,6 +2455,7 @@ MonoBehaviour:
     heroAttack: 25
     heroDamage: 15
     heroMagic: 70
+    heroProtection: 5
     heroImage: {fileID: -9090433897005026154, guid: 51ee516dcfe125b4c840c97b98f312f5, type: 3}
   - heroName: Mechanic
     heroDescription: Mechanic of Mechanis
@@ -2456,6 +2463,7 @@ MonoBehaviour:
     heroAttack: 20
     heroDamage: 20
     heroMagic: 70
+    heroProtection: 5
     heroImage: {fileID: -5527972174669230038, guid: ffac454ee5064ad4bafbb46a0465bb86, type: 3}
 --- !u!1 &1726515710
 GameObject:

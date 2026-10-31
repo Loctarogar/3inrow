@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using Unity.Multiplayer.PlayMode;
 
 public class HeroSelectionController : MonoBehaviour
 {
@@ -7,36 +9,67 @@ public class HeroSelectionController : MonoBehaviour
     public HeroData[] mechanisHeroes;
     private HeroData[] currentHeroes;
     private int currentHeroIndex = 0;
-    public void PreviousHero()
-    {
-        Debug.Log("Previous Hero");
-    }
 
     public void NextHero()
     {
-        Debug.Log("Next Hero");
+        if (currentHeroIndex >= 3)
+        {
+            currentHeroIndex = 0;
+        }
+        else
+        {
+            currentHeroIndex++;
+        }
+
+        SetHeroByIndeks(currentHeroIndex, currentHeroes);
+
+        Debug.Log(currentHeroIndex);
+    }
+    public void PreviousHero()
+    {
+        if (currentHeroIndex <= 0)
+        {
+            currentHeroIndex = 3;
+        }
+        else
+        {
+            currentHeroIndex--;
+        }
+        SetHeroByIndeks(currentHeroIndex, currentHeroes);
+
+
+        Debug.Log(currentHeroIndex);
     }
 
     public void SelectEldoria()
     {
-        currentHeroes = eldoriaHeroes;
-        currentHeroIndex = 0;
-        GameObject.Find("HeroName").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroName;
-        GameObject.Find("HeroHealth").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroHealth).ToString();
-        GameObject.Find("HeroAttack").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroAttack).ToString();
-        GameObject.Find("HeroProtection").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroProtection).ToString();
-        GameObject.Find("HeroMana").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroMagic).ToString();
-        GameObject.Find("HeroDescription").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroDescription;
-        GameObject.Find("HeroPortrait").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroImage).ToString();
+        SetHeroByIndeks(0,eldoriaHeroes);
+        
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
 
     public void SelectMechanis()
     {
-        currentHeroes = mechanisHeroes;
-        currentHeroIndex = 0;
+        SetHeroByIndeks(0, mechanisHeroes);
+
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
+
+    public void SetHeroByIndeks(int heroIndeks, HeroData[] heroes)
+    {
+        currentHeroes = heroes;
+        currentHeroIndex = heroIndeks;
+
+        GameObject.Find("HeroName").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroName;
+        GameObject.Find("HeroHealth").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroHealth).ToString();
+        GameObject.Find("HeroAtack").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroAttack).ToString();
+        GameObject.Find("HeroProtection").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroProtection).ToString();
+        GameObject.Find("HeroMana").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroMagic).ToString();
+        GameObject.Find("HeroDescription").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroDescription;
+        GameObject.Find("HeroPortrait").GetComponent<Image>().sprite = currentHeroes[currentHeroIndex].heroImage;
+    }
+
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
