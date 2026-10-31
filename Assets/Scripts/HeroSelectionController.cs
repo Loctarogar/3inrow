@@ -42,6 +42,7 @@ public class HeroSelectionController : MonoBehaviour
 
     public void SelectEldoria()
     {
+        GameObject.Find("Background").GetComponent<CountryBackground>().SetCountry("Eldoria");
         SetHeroByIndeks(0,eldoriaHeroes);
         
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
@@ -49,6 +50,7 @@ public class HeroSelectionController : MonoBehaviour
 
     public void SelectMechanis()
     {
+        GameObject.Find("Background").GetComponent<CountryBackground>().SetCountry("Mechanis");
         SetHeroByIndeks(0, mechanisHeroes);
 
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
