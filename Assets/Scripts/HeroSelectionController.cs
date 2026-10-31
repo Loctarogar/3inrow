@@ -1,7 +1,12 @@
 using UnityEngine;
+using TMPro;
 
-public class HeroSelectionControlle : MonoBehaviour
+public class HeroSelectionController : MonoBehaviour
 {
+    public HeroData[] eldoriaHeroes;
+    public HeroData[] mechanisHeroes;
+    private HeroData[] currentHeroes;
+    private int currentHeroIndex = 0;
     public void PreviousHero()
     {
         Debug.Log("Previous Hero");
@@ -14,12 +19,16 @@ public class HeroSelectionControlle : MonoBehaviour
 
     public void SelectEldoria()
     {
-        Debug.Log("SelectEldoria");
+        currentHeroes = eldoriaHeroes;
+        currentHeroIndex = 0;
+        Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
 
     public void SelectMechanis()
     {
-        Debug.Log("SelectMechanis");
+        currentHeroes = mechanisHeroes;
+        currentHeroIndex = 0;
+        Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
