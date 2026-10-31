@@ -2402,7 +2402,7 @@ MonoBehaviour:
   eldoriaHeroes:
   - heroName: Mage
     heroDescription: Mage of Eldoria
-    heroHealth: 100
+    heroHealth: 95
     heroAttack: 15
     heroDamage: 20
     heroMagic: 100

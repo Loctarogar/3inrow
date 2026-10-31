@@ -21,6 +21,13 @@ public class HeroSelectionController : MonoBehaviour
     {
         currentHeroes = eldoriaHeroes;
         currentHeroIndex = 0;
+        GameObject.Find("HeroName").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroName;
+        GameObject.Find("HeroHealth").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroHealth).ToString();
+        GameObject.Find("HeroAttack").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroAttack).ToString();
+        GameObject.Find("HeroProtection").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroProtection).ToString();
+        GameObject.Find("HeroMana").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroMagic).ToString();
+        GameObject.Find("HeroDescription").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroDescription;
+        GameObject.Find("HeroPortrait").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroImage).ToString();
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
 
