@@ -44,7 +44,11 @@ public class HeroSelectionController : MonoBehaviour
     {
         GameObject.Find("Background").GetComponent<CountryBackground>().SetCountry("Eldoria");
         SetHeroByIndeks(0,eldoriaHeroes);
-        
+        foreach (HeroData hero in eldoriaHeroes)
+        {
+            hero.heroCountry = "Eldoria";
+        }
+
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
 
@@ -52,6 +56,10 @@ public class HeroSelectionController : MonoBehaviour
     {
         GameObject.Find("Background").GetComponent<CountryBackground>().SetCountry("Mechanis");
         SetHeroByIndeks(0, mechanisHeroes);
+        foreach (HeroData hero in eldoriaHeroes)
+        {
+            hero.heroCountry = "Mechanis";
+        }
 
         Debug.Log(currentHeroes[currentHeroIndex].heroName);
     }
@@ -70,7 +78,10 @@ public class HeroSelectionController : MonoBehaviour
         GameObject.Find("HeroPortrait").GetComponent<Image>().sprite = currentHeroes[currentHeroIndex].heroImage;
     }
 
-    
+    public HeroData GetSelectedHero()
+    {
+        return currentHeroes[currentHeroIndex];
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

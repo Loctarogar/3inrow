@@ -11,5 +11,6 @@ public class HeroData
     public int heroMagic;
     public int heroProtection;
     public Sprite heroImage;
-    
+    public static HeroData instance;
+    public string heroCountry;
 }
