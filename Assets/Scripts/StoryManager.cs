@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StoryManager : MonoBehaviour
@@ -25,7 +26,7 @@ public class StoryManager : MonoBehaviour
 
         if (currentImageIndex >= storyImages.Length)
         {
-            currentImageIndex = storyImages.Length - 1;
+            SceneManager.LoadScene("HeroSelection");
             return;
         }
 
