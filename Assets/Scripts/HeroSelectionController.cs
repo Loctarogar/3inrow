@@ -57,7 +57,7 @@ public class HeroSelectionController : MonoBehaviour
     {
         GameObject.Find("Background").GetComponent<CountryBackground>().SetCountry("Mechanis");
         SetHeroByIndeks(0, mechanisHeroes);
-        foreach (HeroData hero in eldoriaHeroes)
+        foreach (HeroData hero in mechanisHeroes)
         {
             hero.heroCountry = "Mechanis";
         }
@@ -81,7 +81,19 @@ public class HeroSelectionController : MonoBehaviour
 
     public void ConfirmHero()
     {
-        HeroData.instance = currentHeroes[currentHeroIndex];
+        HeroData.instance = new HeroData
+        {
+            heroName = currentHeroes[currentHeroIndex].heroName,
+            heroDescription = currentHeroes[currentHeroIndex].heroDescription,
+            heroHealth = currentHeroes[currentHeroIndex].heroHealth,
+            heroAttack = currentHeroes[currentHeroIndex].heroAttack,
+            heroDamage = currentHeroes[currentHeroIndex].heroDamage,
+            heroMagic = currentHeroes[currentHeroIndex].heroMagic,
+            heroProtection = currentHeroes[currentHeroIndex].heroProtection,
+            heroImage = currentHeroes[currentHeroIndex].heroImage,
+            heroCountry = currentHeroes[currentHeroIndex].heroCountry
+        };
+
         StoryManager.ShowFinalImage = true;
         SceneManager.LoadScene("StoryScene");
     }
