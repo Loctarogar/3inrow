@@ -21,10 +21,29 @@ public class StoryManager : MonoBehaviour
     {
         if(ShowFinalImage)
         {
-            currentImageIndex = storyImages.Length - 1;
+            Debug.Log(HeroData.instance.heroCountry);
+            Debug.Log(HeroData.instance.heroAttack);
+            Debug.Log(HeroData.instance.heroDamage);
+            Debug.Log(HeroData.instance.heroDescription);
+            Debug.Log(HeroData.instance.heroHealth);
+            Debug.Log(HeroData.instance.heroImage);
+            Debug.Log(HeroData.instance.heroMagic);
+            Debug.Log(HeroData.instance.heroName);
+            Debug.Log(HeroData.instance.heroProtection);
+
+            if (HeroData.instance.heroCountry == "Mechanis")
+            {
+                storyImage.sprite = mechanisImage;
+            } else 
+            {
+                storyImage.sprite = eldoriaImage;
+            }
+        }
+        else
+        {
+        ShowImage();
         }
 
-        ShowImage();
         nextButton.onClick.AddListener(NextImage);
     }
 
