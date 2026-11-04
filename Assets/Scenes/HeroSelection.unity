@@ -1203,7 +1203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 681256041}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719741643}
+        m_TargetAssemblyTypeName: HeroSelectionController, Assembly-CSharp
+        m_MethodName: ConfirmHero
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &681256041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2424,6 +2436,7 @@ MonoBehaviour:
     heroMagic: 100
     heroProtection: 5
     heroImage: {fileID: -7285376162372006033, guid: 2618abf7abb89074eb50f84dfbb0f9e4, type: 3}
+    heroCountry: 
   - heroName: Paladin
     heroDescription: Paladin of Eldoria
     heroHealth: 150
@@ -2432,6 +2445,7 @@ MonoBehaviour:
     heroMagic: 60
     heroProtection: 5
     heroImage: {fileID: -8594515011827703002, guid: 4d44bcbc1663f1f4198703d297fcd43f, type: 3}
+    heroCountry: 
   - heroName: 'Rogue '
     heroDescription: Rogue of Eldoria
     heroHealth: 90
@@ -2440,6 +2454,7 @@ MonoBehaviour:
     heroMagic: 70
     heroProtection: 5
     heroImage: {fileID: 4979363154352999712, guid: 83bffcf56ac90eb40800138d8b9da94d, type: 3}
+    heroCountry: 
   - heroName: Druid
     heroDescription: Druid of Eldoria
     heroHealth: 110
@@ -2448,6 +2463,7 @@ MonoBehaviour:
     heroMagic: 90
     heroProtection: 5
     heroImage: {fileID: 3461459112936250053, guid: 1f2e2640ad9e90a4f994fb6849a2c0fc, type: 3}
+    heroCountry: 
   mechanisHeroes:
   - heroName: Gunner
     heroDescription: Gunner of Mechanis
@@ -2457,6 +2473,7 @@ MonoBehaviour:
     heroMagic: 50
     heroProtection: 5
     heroImage: {fileID: 21300000, guid: dcee3eb625fb85b4cba8207136eed1ed, type: 3}
+    heroCountry: 
   - heroName: Exosute Operator
     heroDescription: Exosute Operator of Mechanis
     heroHealth: 150
@@ -2465,6 +2482,7 @@ MonoBehaviour:
     heroMagic: 50
     heroProtection: 5
     heroImage: {fileID: -7780730447804343531, guid: 4a61df5fb25b77641a27d5e971380e0d, type: 3}
+    heroCountry: 
   - heroName: Inquizitor
     heroDescription: Inquizitor of Mechanis
     heroHealth: 90
@@ -2473,6 +2491,7 @@ MonoBehaviour:
     heroMagic: 70
     heroProtection: 5
     heroImage: {fileID: -9090433897005026154, guid: 51ee516dcfe125b4c840c97b98f312f5, type: 3}
+    heroCountry: 
   - heroName: Mechanic
     heroDescription: Mechanic of Mechanis
     heroHealth: 90
@@ -2481,6 +2500,7 @@ MonoBehaviour:
     heroMagic: 70
     heroProtection: 5
     heroImage: {fileID: -5527972174669230038, guid: ffac454ee5064ad4bafbb46a0465bb86, type: 3}
+    heroCountry: 
 --- !u!1 &1726515710
 GameObject:
   m_ObjectHideFlags: 0

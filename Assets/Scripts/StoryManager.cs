@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class StoryManager : MonoBehaviour
 {
+
+    public static bool ShowFinalImage = false;
     [Header("Story Image")] public Sprite[] storyImages;
 
     [Header("UI")]
@@ -16,12 +18,23 @@ public class StoryManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if(ShowFinalImage)
+        {
+            currentImageIndex = storyImages.Length - 1;
+        }
+
         ShowImage();
         nextButton.onClick.AddListener(NextImage);
     }
 
     private void NextImage()
     {
+        if (ShowFinalImage)
+        {
+            SceneManager.LoadScene("BattleScene");
+            return;
+        }
+
         currentImageIndex++;
 
         if (currentImageIndex >= storyImages.Length)

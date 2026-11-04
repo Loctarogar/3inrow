@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using Unity.Multiplayer.PlayMode;
+using UnityEngine.SceneManagement;
 
 public class HeroSelectionController : MonoBehaviour
 {
@@ -76,6 +77,13 @@ public class HeroSelectionController : MonoBehaviour
         GameObject.Find("HeroMana").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroMagic).ToString();
         GameObject.Find("HeroDescription").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroDescription;
         GameObject.Find("HeroPortrait").GetComponent<Image>().sprite = currentHeroes[currentHeroIndex].heroImage;
+    }
+
+    public void ConfirmHero()
+    {
+        HeroData.instance = currentHeroes[currentHeroIndex];
+        StoryManager.ShowFinalImage = true;
+        SceneManager.LoadScene("StoryScene");
     }
 
     public HeroData GetSelectedHero()
