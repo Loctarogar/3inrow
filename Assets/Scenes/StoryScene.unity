@@ -585,6 +585,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 036dafac3df33f8499377cf60b81b28a, type: 3}
   - {fileID: 21300000, guid: 9fde31c636abea34a98a8fc9a7e80e37, type: 3}
   - {fileID: 21300000, guid: a74301d4c2597bc4fade7f7857af028d, type: 3}
+  mechanisImage: {fileID: 21300000, guid: 6cb8edf1e06dadf4a85b67749e05c483, type: 3}
+  eldoriaImage: {fileID: 21300000, guid: 8e3505c820b99104f961896419378179, type: 3}
   storyImage: {fileID: 2025167065}
   nextButton: {fileID: 378969807}
 --- !u!4 &1796443961
