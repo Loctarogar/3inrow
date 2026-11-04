@@ -5,7 +5,8 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("HeroSelection");
+        //SceneManager.LoadScene("HeroSelection");
+        SceneManager.LoadScene("StoryScene"); 
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
