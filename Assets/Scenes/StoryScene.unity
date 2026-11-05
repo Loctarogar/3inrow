@@ -867,6 +867,33 @@ MonoBehaviour:
   eldoriaImage: {fileID: 21300000, guid: 8e3505c820b99104f961896419378179, type: 3}
   storyImage: {fileID: 2025167065}
   nextButton: {fileID: 378969807}
+  storyText: {fileID: 920785849}
+  storyTextBackground: {fileID: 1391012140}
+  storyTexts:
+  - "Dawno temu \u015Bwiat nale\u017Ca\u0142 do magii. Niemal wszystkie istoty rodzi\u0142y
+    si\u0119 z magicznymi zdolno\u015Bciami, a magia stanowi\u0142a fundament ca\u0142ej
+    cywilizacji."
+  - "Jednak ludzie pozbawieni magii stworzyli w\u0142asn\u0105 krain\u0119, w kt\xF3rej
+    magia nie mia\u0142a miejsca. Dzieci, u kt\xF3rych ujawnia\u0142y si\u0119 magiczne
+    zdolno\u015Bci, musia\u0142y j\u0105 opu\u015Bci\u0107 przed uko\u0144czeniem
+    dziesi\u0105tego roku \u017Cycia."
+  - "Oddzieleni od magii ludzie rozwin\u0119li w\u0142asn\u0105 cywilizacj\u0119
+    opart\u0105 na nauce i technologii. Wynale\u017Ali maszyny parowe, stworzyli
+    pot\u0119\u017Cn\u0105 bro\u0144 i rozwin\u0119li przemys\u0142."
+  - "Z czasem ludzie coraz bardziej oddalali si\u0119 od magii, a ich niech\u0119\u0107
+    przerodzi\u0142a si\u0119 we wrogo\u015B\u0107. W ko\u0144cu powierzyli w\u0142adz\u0119
+    krwawemu dow\xF3dcy, kt\xF3ry obieca\u0142 rozwi\u0105za\u0107 konflikt raz na
+    zawsze."
+  - "Tak rozpocz\u0119\u0142a si\u0119 wielka wojna mi\u0119dzy Eldori\u0105 \u2013
+    krain\u0105 magii \u2013 a Mechanis \u2013 imperium maszyn."
+  - "Mechanis upada. Wojska Eldorii zdoby\u0142y niemal ca\u0142e imperium, a ostatnim
+    bastionem pozostaje Ferrum. Jako ostatni genera\u0142 Mechanis musisz obroni\u0107
+    stolic\u0119, wyzwoli\u0107 utracone miasta i ostatecznie zdoby\u0107 Aetheris,
+    by pokona\u0107 Eldori\u0119"
+  - "Eldoria upada, a wojska Mechanis zdoby\u0142y niemal ca\u0142e kr\xF3lestwo
+    \u2013 pozosta\u0142a tylko Aetheris, ostatni bastion magii. Jako ostatni genera\u0142
+    Eldorii musisz obroni\u0107 stolic\u0119, wyzwoli\u0107 utracone miasta i ostatecznie
+    zdoby\u0107 Ferrum, by pokona\u0107 Mechanis."
 --- !u!4 &1796443961
 Transform:
   m_ObjectHideFlags: 0

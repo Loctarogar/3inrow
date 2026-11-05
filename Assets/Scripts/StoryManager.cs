@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,9 @@ public class StoryManager : MonoBehaviour
     public Button nextButton;
 
     private int currentImageIndex = 0;
+    public TMP_Text storyText;
+    public TMP_Text storyTextBackground;
+    public string[] storyTexts;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,9 +38,13 @@ public class StoryManager : MonoBehaviour
             if (HeroData.instance.heroCountry == "Mechanis")
             {
                 storyImage.sprite = mechanisImage;
+                storyText.text = storyTexts[5];
+                storyTextBackground.text = storyTexts[5];
             } else 
             {
                 storyImage.sprite = eldoriaImage;
+                storyText.text = storyTexts[6];
+                storyTextBackground.text = storyTexts[6];
             }
         }
         else
@@ -68,7 +76,10 @@ public class StoryManager : MonoBehaviour
 
     public void ShowImage()
     {
+        Debug.Log(currentImageIndex);
         storyImage.sprite = storyImages[currentImageIndex];
+        storyText.text = storyTexts[currentImageIndex];
+        storyTextBackground.text = storyTexts[currentImageIndex];
     }
 
     // Update is called once per frame
