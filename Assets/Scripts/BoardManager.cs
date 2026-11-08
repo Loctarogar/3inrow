@@ -180,13 +180,13 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    public void SelectCrystal(Crystal crystal) 
+
+    public void SelectCrystal(Crystal crystal)
     {
         if (selectedCrystal == null)
         {
             selectedCrystal = crystal;
-            Debug.Log($"pierwszy krysztal");
-
+            Debug.Log("Pierwszy kryształ");
             return;
         }
 
@@ -200,17 +200,36 @@ public class BoardManager : MonoBehaviour
         int distanceX = Mathf.Abs(selectedCrystal.X - crystal.X);
         int distanceY = Mathf.Abs(selectedCrystal.Y - crystal.Y);
 
-        if(distanceX + distanceY == 1)
+        if (distanceX + distanceY == 1)
         {
             StartCoroutine(SwapCrystals(selectedCrystal, crystal));
-            Debug.Log($"Drugi krysztal");
-            selectedCrystal = null;
+            Debug.Log("Drugi kryształ");
         }
-        else 
-        {
-            selectedCrystal = null;
-        }
+
+        selectedCrystal = null;
     }
+
+
+    public void SwapByDrag(Crystal first, Crystal second)
+    {
+        selectedCrystal = null;
+
+        if (first == null || second == null)
+        {
+            return;
+        }
+
+        int distanceX = Mathf.Abs(first.X - second.X);
+        int distanceY = Mathf.Abs(first.Y - second.Y);
+
+        if (distanceX + distanceY != 1)
+        {
+            return;
+        }
+
+        StartCoroutine(SwapCrystals(first, second));
+    }
+
 
     private IEnumerator SwapCrystals(Crystal first, Crystal second)
     {
