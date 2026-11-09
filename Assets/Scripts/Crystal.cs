@@ -111,25 +111,28 @@ public class Crystal : MonoBehaviour
 
     private void HandlePointerUp(Vector2 screenPosition)
     {
-        Vector2 worldPosition = Camera.main.ScreenToWorldPoint(screenPosition);
-
-        Collider2D hit = Physics2D.OverlapPoint(worldPosition);
-
-        Crystal targetCrystal = null;
-
-        if (hit != null)
-        {
-            targetCrystal = hit.GetComponent<Crystal>();
-        }
+        Vector2 dragDelta = screenPosition - dragStartPosition;
 
         if (dragMoved)
         {
-            if (targetCrystal != null && targetCrystal != this)
+            if (boardManager != null)
             {
-                if (boardManager != null)
+                Vector2Int direction;
+
+                if (Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y))
                 {
-                    boardManager.SwapByDrag(this, targetCrystal);
+                    direction = dragDelta.x > 0
+                        ? Vector2Int.right
+                        : Vector2Int.left;
                 }
+                else
+                {
+                    direction = dragDelta.y > 0
+                        ? Vector2Int.up
+                        : Vector2Int.down;
+                }
+
+                boardManager.SwapByDirection(this, direction);
             }
         }
         else

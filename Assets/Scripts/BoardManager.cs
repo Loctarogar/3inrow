@@ -210,26 +210,33 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    public void SwapByDrag(Crystal first, Crystal second)
+    public void SwapByDirection(Crystal source, Vector2Int direction)
     {
         selectedCrystal = null;
 
-        if (first == null || second == null)
+        if (source == null)
         {
             return;
         }
 
-        int distanceX = Mathf.Abs(first.X - second.X);
-        int distanceY = Mathf.Abs(first.Y - second.Y);
+        int targetX = source.X + direction.x;
+        int targetY = source.Y + direction.y;
 
-        if (distanceX + distanceY != 1)
+        if (targetX < 0 || targetX >= Width ||
+            targetY < 0 || targetY >= Height)
         {
             return;
         }
 
-        StartCoroutine(SwapCrystals(first, second));
+        Crystal target = crystals[targetX, targetY];
+
+        if (target == null)
+        {
+            return;
+        }
+
+        StartCoroutine(SwapCrystals(source, target));
     }
-
 
     private IEnumerator SwapCrystals(Crystal first, Crystal second)
     {
