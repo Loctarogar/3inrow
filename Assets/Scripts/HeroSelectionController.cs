@@ -95,7 +95,9 @@ public class HeroSelectionController : MonoBehaviour
         };
 
         StoryManager.ShowFinalImage = true;
-        SceneManager.LoadScene("StoryScene");
+        //SceneManager.LoadScene("StoryScene");
+        SceneManager.LoadScene("WorldMapScene");
+        
     }
 
     public HeroData GetSelectedHero()
