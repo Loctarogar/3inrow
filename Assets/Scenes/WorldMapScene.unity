@@ -299,8 +299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 630644156}
+  unlockCity2: {fileID: 912198851}
 --- !u!1 &68252822
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +404,6 @@ GameObject:
   - component: {fileID: 143096118}
   - component: {fileID: 143096117}
   - component: {fileID: 143096119}
-  - component: {fileID: 143096120}
   m_Layer: 5
   m_Name: CityMarkerMechanisFerrum1
   m_TagString: Untagged
@@ -483,21 +482,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: MechanisFerrum
   unlockCity1: {fileID: 555612267}
-  unlockCity2: {fileID: 0}
---- !u!114 &143096120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143096115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
   unlockCity2: {fileID: 0}
 --- !u!1 &190928090
 GameObject:
@@ -679,8 +663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 633125990}
+  unlockCity2: {fileID: 1549545921}
 --- !u!1 &282260001
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,7 +961,6 @@ GameObject:
   - component: {fileID: 555612266}
   - component: {fileID: 555612265}
   - component: {fileID: 555612267}
-  - component: {fileID: 555612268}
   m_Layer: 5
   m_Name: CityMarkerMechanisFerrum2
   m_TagString: Untagged
@@ -1056,21 +1039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
   unlockCity1: {fileID: 1706334228}
-  unlockCity2: {fileID: 0}
---- !u!114 &555612268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555612263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
   unlockCity2: {fileID: 0}
 --- !u!1 &571678199
 GameObject:
@@ -1252,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 1462326336}
   unlockCity2: {fileID: 0}
 --- !u!1 &633125986
 GameObject:
@@ -1343,8 +1311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 1390691844}
+  unlockCity2: {fileID: 1596893832}
 --- !u!1 &675790740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,7 +1933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 35333451}
   unlockCity2: {fileID: 0}
 --- !u!1 &919916144
 GameObject:
@@ -2070,7 +2038,6 @@ GameObject:
   - component: {fileID: 939046578}
   - component: {fileID: 939046577}
   - component: {fileID: 939046579}
-  - component: {fileID: 939046580}
   m_Layer: 5
   m_Name: CityMarkerMechanisVarkos1
   m_TagString: Untagged
@@ -2148,23 +2115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
---- !u!114 &939046580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939046575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 1280201296}
+  unlockCity2: {fileID: 1766565743}
 --- !u!1 &942249967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,7 +2206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 216865258}
   unlockCity2: {fileID: 0}
 --- !u!1 &1020470047
 GameObject:
@@ -2974,7 +2926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 919916148}
   unlockCity2: {fileID: 0}
 --- !u!1 &1396358910
 GameObject:
@@ -3156,8 +3108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 942249971}
+  unlockCity2: {fileID: 1549545921}
 --- !u!1 &1542705275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,8 +3290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 1390691844}
+  unlockCity2: {fileID: 1596893832}
 --- !u!1 &1562822765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,7 +3304,6 @@ GameObject:
   - component: {fileID: 1562822768}
   - component: {fileID: 1562822767}
   - component: {fileID: 1562822769}
-  - component: {fileID: 1562822770}
   m_Layer: 5
   m_Name: CityMarkerMechanisThornix1
   m_TagString: Untagged
@@ -3430,22 +3381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
---- !u!114 &1562822770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562822765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 1851484792}
   unlockCity2: {fileID: 0}
 --- !u!1 &1564216446
 GameObject:
@@ -3627,7 +3563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 1596893832}
   unlockCity2: {fileID: 0}
 --- !u!1 &1621140506
 GameObject:
@@ -3823,7 +3759,6 @@ GameObject:
   - component: {fileID: 1706334227}
   - component: {fileID: 1706334226}
   - component: {fileID: 1706334228}
-  - component: {fileID: 1706334229}
   m_Layer: 5
   m_Name: CityMarkerMechanisFerrum3
   m_TagString: Untagged
@@ -3901,23 +3836,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
---- !u!114 &1706334229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706334224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 939046579}
+  unlockCity2: {fileID: 1562822769}
 --- !u!1 &1759696950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,7 +4018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 38105842}
   unlockCity2: {fileID: 0}
 --- !u!1 &1783198755
 GameObject:
@@ -4294,7 +4214,6 @@ GameObject:
   - component: {fileID: 1851484791}
   - component: {fileID: 1851484790}
   - component: {fileID: 1851484792}
-  - component: {fileID: 1851484793}
   m_Layer: 5
   m_Name: CityMarkerMechanisThornix2
   m_TagString: Untagged
@@ -4372,23 +4291,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
---- !u!114 &1851484793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851484788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
-  cityId: 
-  unlockCity1: {fileID: 0}
-  unlockCity2: {fileID: 0}
+  unlockCity1: {fileID: 541810910}
+  unlockCity2: {fileID: 1644036337}
 --- !u!1 &1866829046
 GameObject:
   m_ObjectHideFlags: 0
