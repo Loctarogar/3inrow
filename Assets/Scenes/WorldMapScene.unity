@@ -433,11 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
   cityId: MechanisFerrum
-  battleMarkers:
-  - {fileID: 143096117}
-  - {fileID: 555612265}
-  - {fileID: 1706334226}
-  unlockCity1: {fileID: 0}
+  unlockCity1: {fileID: 555612267}
   unlockCity2: {fileID: 0}
 --- !u!1 &190928090
 GameObject:
@@ -852,6 +848,7 @@ GameObject:
   - component: {fileID: 555612264}
   - component: {fileID: 555612266}
   - component: {fileID: 555612265}
+  - component: {fileID: 555612267}
   m_Layer: 5
   m_Name: CityMarkerMechanisFerrum2
   m_TagString: Untagged
@@ -916,6 +913,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555612263}
   m_CullTransparentMesh: 1
+--- !u!114 &555612267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555612263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
+  cityId: 
+  unlockCity1: {fileID: 0}
+  unlockCity2: {fileID: 0}
 --- !u!1 &571678199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +3230,7 @@ GameObject:
   - component: {fileID: 1706334225}
   - component: {fileID: 1706334227}
   - component: {fileID: 1706334226}
+  - component: {fileID: 1706334228}
   m_Layer: 5
   m_Name: CityMarkerMechanisFerrum3
   m_TagString: Untagged
@@ -3282,6 +3295,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706334224}
   m_CullTransparentMesh: 1
+--- !u!114 &1706334228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706334224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d04d964d59a9d44c9c43f84b9ae74f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CityCampaignNode
+  cityId: 
+  unlockCity1: {fileID: 0}
+  unlockCity2: {fileID: 0}
 --- !u!1 &1759696950
 GameObject:
   m_ObjectHideFlags: 0
