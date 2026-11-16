@@ -54,7 +54,7 @@ public class EldoriaCampaign : MonoBehaviour
         },
         new CampaignStage
         {
-            stageName = "Stage 8",
+            stageName = "Stage 9",
             cities = new[] {"Ferrum"},
             requiresOrder = false
         }
