@@ -1722,6 +1722,189 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919916144}
   m_CullTransparentMesh: 1
+--- !u!1 &938454721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938454725}
+  - component: {fileID: 938454724}
+  - component: {fileID: 938454723}
+  - component: {fileID: 938454722}
+  m_Layer: 0
+  m_Name: CampaignManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &938454722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938454721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45297f8b1d6137a43bcee02970d81f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EldoriaCampaign
+  stages:
+  - stageName: Stage 1
+    cities:
+    - Aetheris
+    requiresOrder: 0
+  - stageName: Stage 2
+    cities:
+    - Sylvaris
+    - Caelion
+    - Lunareth
+    requiresOrder: 0
+  - stageName: Stage 3
+    cities:
+    - Mystral
+    - Thalorien
+    - Eldwyn
+    requiresOrder: 0
+  - stageName: Stage 4
+    cities:
+    - Aranthil
+    - Nimbras
+    - Velmora
+    - Ilyndor
+    requiresOrder: 0
+  - stageName: Stage 5
+    cities:
+    - Tharion
+    - Kragar
+    requiresOrder: 1
+  - stageName: Stage 6
+    cities:
+    - Eorvon
+    - Keldran
+    - Brannor
+    - Varkos
+    requiresOrder: 0
+  - stageName: Stage 7
+    cities:
+    - Zorvik
+    - Nerath
+    - Vulkor
+    - Gorath
+    requiresOrder: 1
+  - stageName: Stage 8
+    cities:
+    - Caldor
+    - Thornix
+    - Orgrim
+    - Dredan
+    requiresOrder: 1
+  - stageName: Stage 9
+    cities:
+    - Ferrum
+    requiresOrder: 0
+--- !u!114 &938454723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938454721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d4f069076895438d1e0eddc0b861a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MechanisCampaign
+  stages:
+  - stageName: Stage 1
+    cities:
+    - Ferrum
+    requiresOrder: 0
+  - stageName: Stage 2
+    cities:
+    - Brannor
+    - Varkos
+    - Caldor
+    - Thornix
+    - Orgrim
+    - Dredan
+    requiresOrder: 0
+  - stageName: Stage 3
+    cities:
+    - Keldran
+    - Eorvon
+    - Zorvik
+    - Nerath
+    - Vulkor
+    - Gorath
+    requiresOrder: 1
+  - stageName: Stage 4
+    cities:
+    - Kragar
+    - Tharion
+    requiresOrder: 1
+  - stageName: Stage 5
+    cities:
+    - Eldwyn
+    - Thalorien
+    - Aranthil
+    requiresOrder: 0
+  - stageName: Stage 6
+    cities:
+    - Nimbras
+    - Velmora
+    requiresOrder: 0
+  - stageName: Stage 7
+    cities:
+    - Ilyndor
+    requiresOrder: 0
+  - stageName: Stage 8
+    cities:
+    - Mystral
+    - Caelion
+    - Lunareth
+    requiresOrder: 0
+  - stageName: Stage 9
+    cities:
+    - Sylvaris
+    requiresOrder: 0
+  - stageName: Stage 10
+    cities:
+    - Aetheris
+    requiresOrder: 0
+--- !u!114 &938454724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938454721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f17b1ab48c092249a65b0ebc5c00377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CampaingManager
+  mechanisCampaign: {fileID: 938454723}
+  eldoriaCampaign: {fileID: 938454722}
+--- !u!4 &938454725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938454721}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 750.88464, y: 514.2757, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &939046575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,3 +4052,4 @@ SceneRoots:
   - {fileID: 1386126949}
   - {fileID: 282260005}
   - {fileID: 1020470050}
+  - {fileID: 938454725}
