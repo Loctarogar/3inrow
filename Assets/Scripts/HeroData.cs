@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 [System.Serializable]
 public class HeroData
@@ -10,7 +12,14 @@ public class HeroData
     public int heroDamage;
     public int heroMagic;
     public int heroProtection;
-    public Sprite heroImage;
-    public static HeroData instance;
     public string heroCountry;
+
+    public List<string> completedBattles = new List<string>();
+
+    public static HeroData instance;
+
+    [NonSerialized]
+    public Sprite heroImage;
+
+   
 }

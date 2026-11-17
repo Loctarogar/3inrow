@@ -1,8 +1,9 @@
-using UnityEngine;
+using System.Collections.Generic;
 using TMPro;
-using UnityEngine.UI;
 using Unity.Multiplayer.PlayMode;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class HeroSelectionController : MonoBehaviour
 {
@@ -91,7 +92,8 @@ public class HeroSelectionController : MonoBehaviour
             heroMagic = currentHeroes[currentHeroIndex].heroMagic,
             heroProtection = currentHeroes[currentHeroIndex].heroProtection,
             heroImage = currentHeroes[currentHeroIndex].heroImage,
-            heroCountry = currentHeroes[currentHeroIndex].heroCountry
+            heroCountry = currentHeroes[currentHeroIndex].heroCountry,
+            completedBattles = new List<string>()
         };
 
         StoryManager.ShowFinalImage = true;
@@ -103,6 +105,24 @@ public class HeroSelectionController : MonoBehaviour
     public HeroData GetSelectedHero()
     {
         return currentHeroes[currentHeroIndex];
+    }
+
+    public Sprite GetHeroSprite(string heroName)
+    {
+        foreach (HeroData hero in eldoriaHeroes)
+        {
+            if (hero.heroName == heroName)
+                return hero.heroImage;
+        }
+
+        foreach (HeroData hero in mechanisHeroes)
+        {
+            if (hero.heroName == heroName)
+                return hero.heroImage;
+        }
+
+        Debug.LogError("Hero sprite not found: " + heroName);
+        return null;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

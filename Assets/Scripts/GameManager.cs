@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
             heroRenderer = hero.GetComponent<SpriteRenderer>();
             if(HeroData.instance != null)
             {
-                heroRenderer.sprite = HeroData.instance.heroImage;
+                heroRenderer.sprite = FindFirstObjectByType<HeroSelectionController>().GetHeroSprite(HeroData.instance.heroName);
                 hero.SetActive(true);
             }
         }
