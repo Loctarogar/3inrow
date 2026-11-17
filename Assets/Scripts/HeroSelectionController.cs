@@ -79,10 +79,22 @@ public class HeroSelectionController : MonoBehaviour
         GameObject.Find("HeroMana").GetComponent<TMP_Text>().text = (currentHeroes[currentHeroIndex].heroMagic).ToString();
         GameObject.Find("HeroDescription").GetComponent<TMP_Text>().text = currentHeroes[currentHeroIndex].heroDescription;
         GameObject.Find("HeroPortrait").GetComponent<Image>().sprite = currentHeroes[currentHeroIndex].heroImage;
+
+        string selectedHeroName = currentHeroes[currentHeroIndex].heroName;
+
+        heroExistsMessage.text = SaveManager.IsHeroCreated(selectedHeroName)
+            ? "Ten bohater został już utworzony. Wybierz innego."
+            : "";
     }
 
     public void ConfirmHero()
     {
+        if (SaveManager.IsHeroCreated(currentHeroes[currentHeroIndex].heroName))
+        {
+            heroExistsMessage.text = "Ten bohater został już utworzony. Wybierz innego.";
+            return;
+        }
+
         HeroData.instance = new HeroData
         {
             heroName = currentHeroes[currentHeroIndex].heroName,

@@ -18,7 +18,6 @@ public class HeroData
 
     public static HeroData instance;
 
-    [NonSerialized]
     public Sprite heroImage;
 
    
