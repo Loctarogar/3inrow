@@ -11,6 +11,7 @@ public class HeroSelectionController : MonoBehaviour
     public HeroData[] mechanisHeroes;
     private HeroData[] currentHeroes;
     private int currentHeroIndex = 0;
+    public TMP_Text heroExistsMessage;
 
     public void NextHero()
     {
