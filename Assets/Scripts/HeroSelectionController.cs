@@ -109,6 +109,16 @@ public class HeroSelectionController : MonoBehaviour
             completedBattles = new List<string>()
         };
 
+        int freeSlot = SaveManager.GetFirstFreeSlot();
+
+        if (freeSlot == -1)
+        {
+            heroExistsMessage.text = "Wszystkie sloty są zajęte.";
+            return;
+        }
+
+        SaveManager.SaveGame(freeSlot, HeroData.instance);
+
         StoryManager.ShowFinalImage = true;
         //SceneManager.LoadScene("StoryScene");
         SceneManager.LoadScene("WorldMapScene");
