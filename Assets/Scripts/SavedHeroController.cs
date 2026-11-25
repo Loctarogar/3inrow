@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SavedHeroController : MonoBehaviour
 {
     private int currentSlot = -1;
+    public Image heroImage;
+    public HeroData[] allHeroes;
 
     public HeroData GetFirstHero()
     {

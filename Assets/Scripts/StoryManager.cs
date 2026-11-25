@@ -23,7 +23,7 @@ public class StoryManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(ShowFinalImage)
+        if (ShowFinalImage)
         {
             Debug.Log(HeroData.instance.heroCountry);
             Debug.Log(HeroData.instance.heroAttack);
