@@ -5,7 +5,7 @@ public class SavedHeroController : MonoBehaviour
 {
     private int currentSlot = -1;
     public Image heroImage;
-    public HeroData[] allHeroes;
+    public Sprite[] heroSprites;
 
     public HeroData GetFirstHero()
     {
@@ -60,5 +60,67 @@ public class SavedHeroController : MonoBehaviour
         }
 
         return null;
+    }
+
+    public Sprite GetHeroSprite(string heroName)
+    {
+        switch (heroName.Trim())
+        {
+            case "Mage":
+                return heroSprites[0];
+
+            case "Paladin":
+                return heroSprites[1];
+
+            case "Rogue":
+                return heroSprites[2];
+
+            case "Druid":
+                return heroSprites[3];
+
+            case "Gunner":
+                return heroSprites[4];
+
+            case "Exosute Operator":
+            case "ExosuitOperator":
+                return heroSprites[5];
+
+            case "Inquizitor":
+            case "Inquisitor":
+                return heroSprites[6];
+
+            case "Mechanic":
+                return heroSprites[7];
+
+            default:
+                Debug.LogError("Nie znaleziono portretu: " + heroName);
+                return null;
+        }
+    }
+
+    private void DisplayHero(HeroData hero)
+    {
+        if (hero == null)
+        {
+            heroImage.sprite = null;
+            return;
+        }
+
+        heroImage.sprite = GetHeroSprite(hero.heroName);
+    }
+
+    private void Start()
+    {
+        DisplayHero(GetFirstHero());
+    }
+
+    public void NextHero()
+    {
+        DisplayHero(GetNextHero());
+    }
+
+    public void PreviousHero()
+    {
+        DisplayHero(GetPreviousHero());
     }
 }
