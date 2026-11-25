@@ -32,9 +32,11 @@ public class SavedHeroController : MonoBehaviour
 
             if (hero != null)
             {
-                currentSlot = i;
+                
                 return hero;
             }
+
+            currentSlot = i;
         }
 
         return null;
@@ -51,9 +53,11 @@ public class SavedHeroController : MonoBehaviour
 
             if (hero != null)
             {
-                currentSlot = i;
+                
                 return hero;
             }
+
+            currentSlot = i;
         }
 
         return null;
