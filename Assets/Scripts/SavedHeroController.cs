@@ -114,7 +114,18 @@ public class SavedHeroController : MonoBehaviour
 
     private void Start()
     {
-        DisplayHero(GetFirstHero());
+        HeroData hero = GetFirstHero();
+
+        if (hero == null)
+        {
+            Debug.Log("Nie znaleziono zapisanych bohaterów.");
+        }
+        else
+        {
+            Debug.Log("Wczytano bohatera: " + hero.heroName);
+        }
+
+        DisplayHero(hero);
     }
 
     public void NextHero()
