@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SavedHeroController : MonoBehaviour
 {
     private int currentSlot = -1;
     public Image heroImage;
     public Sprite[] heroSprites;
+    public TMP_Text heroNameText;
 
     public HeroData GetFirstHero()
     {
@@ -107,6 +109,7 @@ public class SavedHeroController : MonoBehaviour
         }
 
         heroImage.sprite = GetHeroSprite(hero.heroName);
+        heroNameText.text = hero.heroName;
     }
 
     private void Start()
