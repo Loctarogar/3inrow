@@ -24,6 +24,8 @@ public class SavedHeroController : MonoBehaviour
         }
 
         currentSlot = -1;
+        SceneManager.LoadScene("MainMenu");
+
         return null;
     }
 
