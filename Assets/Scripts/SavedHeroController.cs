@@ -37,11 +37,13 @@ public class SavedHeroController : MonoBehaviour
 
             if (hero != null)
             {
+                Debug.Log("current hero is not null");
                 currentSlot = i;
                 return hero;
             }
         }
 
+        GetFirstHero();
         return null;
     }
 
@@ -56,11 +58,13 @@ public class SavedHeroController : MonoBehaviour
 
             if (hero != null)
             {
+                Debug.Log("current hero is not null");
                 currentSlot = i;
                 return hero;
             }
         }
 
+        GetFirstHero();
         return null;
     }
 
