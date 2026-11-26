@@ -147,4 +147,26 @@ public class SavedHeroController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void ContinueGame()
+    {
+        if(currentSlot < 0 || currentSlot > 7)
+        {
+            return; 
+        }
+
+        HeroData loadHero = SaveManager.LoadGame(currentSlot);
+
+        if(loadHero == null)
+        {
+            Debug.Log("Nie udało się załadować");
+
+            return;
+        }
+
+        loadHero.heroImage = GetHeroSprite(loadHero.heroName);
+        HeroData.instance = loadHero;
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("WorldMapScene");
+    }
 }
