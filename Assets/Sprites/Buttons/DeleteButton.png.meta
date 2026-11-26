@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: cba0a23abb2de00489bcb3d8b789d72e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -921086426717527885
+    second: DeleteButton_0
+  - first:
+      213: -6309703165640081185
+    second: DeleteButton_1
+  - first:
+      213: 1911762572684375126
+    second: DeleteButton_2
+  - first:
+      213: 6861694259222048208
+    second: DeleteButton_3
+  - first:
+      213: -4896636673872168196
+    second: DeleteButton_4
+  - first:
+      213: 641461354404900257
+    second: DeleteButton_5
+  - first:
+      213: 6802454065180848892
+    second: DeleteButton_6
+  - first:
+      213: -6689867865135465467
+    second: DeleteButton_7
+  - first:
+      213: 8292552732447949104
+    second: DeleteButton_8
+  - first:
+      213: -3515533173828275468
+    second: DeleteButton_9
+  - first:
+      213: 1641903515117792127
+    second: DeleteButton_10
+  - first:
+      213: 5319673878680515017
+    second: DeleteButton_11
+  - first:
+      213: 1344517877662462019
+    second: DeleteButton_12
+  - first:
+      213: -2130914013436817724
+    second: DeleteButton_13
+  - first:
+      213: -7217623353194087305
+    second: DeleteButton_14
+  - first:
+      213: 2006903173686672904
+    second: DeleteButton_15
+  - first:
+      213: 4082159940927432887
+    second: DeleteButton_16
+  - first:
+      213: -3927718749488460659
+    second: DeleteButton_17
+  - first:
+      213: 5522216701426968308
+    second: DeleteButton_18
+  - first:
+      213: 2293334605265198576
+    second: DeleteButton_19
+  - first:
+      213: -2911059047175648208
+    second: DeleteButton_20
+  - first:
+      213: -1315407284468602691
+    second: DeleteButton_21
+  - first:
+      213: -2361765568306957102
+    second: DeleteButton_22
+  - first:
+      213: 6660855109153204109
+    second: DeleteButton_23
+  - first:
+      213: 2458539318322140756
+    second: DeleteButton_24
+  - first:
+      213: 1422083735351493582
+    second: DeleteButton_25
+  - first:
+      213: -2932959396540307292
+    second: DeleteButton_26
+  - first:
+      213: 8649954417999595031
+    second: DeleteButton_27
+  - first:
+      213: -8290829776187482053
+    second: DeleteButton_28
+  - first:
+      213: -2763124810727534786
+    second: DeleteButton_29
+  - first:
+      213: 1498299742850603814
+    second: DeleteButton_30
+  - first:
+      213: -679302860424387384
+    second: DeleteButton_31
+  - first:
+      213: -6859666328956394049
+    second: DeleteButton_32
+  - first:
+      213: -5164317260803192091
+    second: DeleteButton_33
+  - first:
+      213: 53764300694742711
+    second: DeleteButton_34
+  - first:
+      213: -8395401349699996318
+    second: DeleteButton_35
+  - first:
+      213: -9194221994463126653
+    second: DeleteButton_36
+  - first:
+      213: 3295553540203976707
+    second: DeleteButton_37
+  - first:
+      213: 1901556315873885505
+    second: DeleteButton_38
+  - first:
+      213: -8958812853453071816
+    second: DeleteButton_39
+  - first:
+      213: -4970048051125437064
+    second: DeleteButton_40
+  - first:
+      213: -3561368637630908108
+    second: DeleteButton_41
+  - first:
+      213: 6832460886192315061
+    second: DeleteButton_42
+  - first:
+      213: 7947573597456087555
+    second: DeleteButton_43
+  - first:
+      213: -593859782530419302
+    second: DeleteButton_44
+  - first:
+      213: 8579542714284143474
+    second: DeleteButton_45
+  - first:
+      213: 1690788336497835477
+    second: DeleteButton_46
+  - first:
+      213: 3122205733374108250
+    second: DeleteButton_47
+  - first:
+      213: -5593817223242676583
+    second: DeleteButton_48
+  - first:
+      213: 5946789416967416955
+    second: DeleteButton_49
+  - first:
+      213: 142675918712777242
+    second: DeleteButton_50
+  - first:
+      213: 4891673063826415355
+    second: DeleteButton_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeleteButton_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1244
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0611866c4a733f0800000000000000
+      internalID: -921086426717527885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1051
+        width: 54
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd08ddda66e6f68a0800000000000000
+      internalID: -6309703165640081185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_2
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1184
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6543dbf4ee1f78a10800000000000000
+      internalID: 1911762572684375126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1156
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd644ee292a93f50800000000000000
+      internalID: 6861694259222048208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1115
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf2bb73e6ab0cb0800000000000000
+      internalID: -4896636673872168196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1065
+        width: 118
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ade17604bde6e800800000000000000
+      internalID: 641461354404900257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1117
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2340c6eeb276e50800000000000000
+      internalID: 6802454065180848892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1117
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cbc400f90d823a0800000000000000
+      internalID: -6689867865135465467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_8
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1070
+        width: 130
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03141ca36c0151370800000000000000
+      internalID: 8292552732447949104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_9
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1073
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f23dd95431563fc0800000000000000
+      internalID: -3515533173828275468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_10
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1073
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7baf0e3c8639c610800000000000000
+      internalID: 1641903515117792127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_11
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1061
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c13da3353743d940800000000000000
+      internalID: 5319673878680515017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_12
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 923
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340bb3cd2efa8a210800000000000000
+      internalID: 1344517877662462019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_13
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1006
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce423eaef87d62e0800000000000000
+      internalID: -2130914013436817724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 938
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c7d460dc9d5db90800000000000000
+      internalID: -7217623353194087305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_15
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 982
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eb23eadc3f9db10800000000000000
+      internalID: 2006903173686672904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_16
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 986
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b82f4b86deb6a830800000000000000
+      internalID: 4082159940927432887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c49177b90fd79c0800000000000000
+      internalID: -3927718749488460659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_18
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 962
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6a84df4dad2ac40800000000000000
+      internalID: 5522216701426968308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_19
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 962
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd51f14caf83df10800000000000000
+      internalID: 2293334605265198576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 933
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c88e45837d997d0800000000000000
+      internalID: -2911059047175648208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 912
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8a94a4b0cbebde0800000000000000
+      internalID: -1315407284468602691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_22
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 909
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b0529ab2593fd0800000000000000
+      internalID: -2361765568306957102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_23
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 877
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d872c695e6c107c50800000000000000
+      internalID: 6660855109153204109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 838
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4561ceeeb7c7e1220800000000000000
+      internalID: 2458539318322140756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 855
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec38c7e6f914cb310800000000000000
+      internalID: 1422083735351493582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_26
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 830
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a82294e7f80c47d0800000000000000
+      internalID: -2932959396540307292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 776
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716cf28b6bfca0870800000000000000
+      internalID: 8649954417999595031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 816
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b302d19ce3e01fc80800000000000000
+      internalID: -8290829776187482053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_29
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 808
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f4482df9867a9d0800000000000000
+      internalID: -2763124810727534786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_30
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 802
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b5ba38da70bc410800000000000000
+      internalID: 1498299742850603814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 703
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c46f75c5a1a296f0800000000000000
+      internalID: -679302860424387384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 703
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5a8d061d19dc0a0800000000000000
+      internalID: -6859666328956394049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_33
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 512
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea486220d8a458b0800000000000000
+      internalID: -5164317260803192091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_34
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 438
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6e18cb8520fb000800000000000000
+      internalID: 53764300694742711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 418
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265fb4404fa8d7b80800000000000000
+      internalID: -8395401349699996318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_36
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 331
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b11f12fcf876080800000000000000
+      internalID: -9194221994463126653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_37
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089326fb782cbd20800000000000000
+      internalID: 3295553540203976707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 160
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d3018f46fa36a10800000000000000
+      internalID: 1901556315873885505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_39
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 153
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ad9b4fc27eba380800000000000000
+      internalID: -8958812853453071816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_40
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 116
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dbb0441a7d60bb0800000000000000
+      internalID: -4970048051125437064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_41
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 118
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439facfc71a739ec0800000000000000
+      internalID: -3561368637630908108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_42
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 86
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba5e3fd9f6c1de50800000000000000
+      internalID: 6832460886192315061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_43
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 74
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ab4ae24147b4e60800000000000000
+      internalID: 7947573597456087555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_44
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 37
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9532e79caf22c7f0800000000000000
+      internalID: -593859782530419302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_45
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 39
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273723c64a8a01770800000000000000
+      internalID: 8579542714284143474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_46
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 50
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddb35ba803e67710800000000000000
+      internalID: 1690788336497835477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 23
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52a375829d445b20800000000000000
+      internalID: 3122205733374108250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_48
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 31
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996882e6fd4ce52b0800000000000000
+      internalID: -5593817223242676583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_49
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 33
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c2560a77d378250800000000000000
+      internalID: 5946789416967416955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_50
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 23
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aa0ecfdf2eaf100800000000000000
+      internalID: 142675918712777242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeleteButton_51
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 8
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe58befbb6b2e340800000000000000
+      internalID: 4891673063826415355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DeleteButton_0: -921086426717527885
+      DeleteButton_1: -6309703165640081185
+      DeleteButton_10: 1641903515117792127
+      DeleteButton_11: 5319673878680515017
+      DeleteButton_12: 1344517877662462019
+      DeleteButton_13: -2130914013436817724
+      DeleteButton_14: -7217623353194087305
+      DeleteButton_15: 2006903173686672904
+      DeleteButton_16: 4082159940927432887
+      DeleteButton_17: -3927718749488460659
+      DeleteButton_18: 5522216701426968308
+      DeleteButton_19: 2293334605265198576
+      DeleteButton_2: 1911762572684375126
+      DeleteButton_20: -2911059047175648208
+      DeleteButton_21: -1315407284468602691
+      DeleteButton_22: -2361765568306957102
+      DeleteButton_23: 6660855109153204109
+      DeleteButton_24: 2458539318322140756
+      DeleteButton_25: 1422083735351493582
+      DeleteButton_26: -2932959396540307292
+      DeleteButton_27: 8649954417999595031
+      DeleteButton_28: -8290829776187482053
+      DeleteButton_29: -2763124810727534786
+      DeleteButton_3: 6861694259222048208
+      DeleteButton_30: 1498299742850603814
+      DeleteButton_31: -679302860424387384
+      DeleteButton_32: -6859666328956394049
+      DeleteButton_33: -5164317260803192091
+      DeleteButton_34: 53764300694742711
+      DeleteButton_35: -8395401349699996318
+      DeleteButton_36: -9194221994463126653
+      DeleteButton_37: 3295553540203976707
+      DeleteButton_38: 1901556315873885505
+      DeleteButton_39: -8958812853453071816
+      DeleteButton_4: -4896636673872168196
+      DeleteButton_40: -4970048051125437064
+      DeleteButton_41: -3561368637630908108
+      DeleteButton_42: 6832460886192315061
+      DeleteButton_43: 7947573597456087555
+      DeleteButton_44: -593859782530419302
+      DeleteButton_45: 8579542714284143474
+      DeleteButton_46: 1690788336497835477
+      DeleteButton_47: 3122205733374108250
+      DeleteButton_48: -5593817223242676583
+      DeleteButton_49: 5946789416967416955
+      DeleteButton_5: 641461354404900257
+      DeleteButton_50: 142675918712777242
+      DeleteButton_51: 4891673063826415355
+      DeleteButton_6: 6802454065180848892
+      DeleteButton_7: -6689867865135465467
+      DeleteButton_8: 8292552732447949104
+      DeleteButton_9: -3515533173828275468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

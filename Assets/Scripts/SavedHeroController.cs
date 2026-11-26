@@ -169,4 +169,14 @@ public class SavedHeroController : MonoBehaviour
 
         UnityEngine.SceneManagement.SceneManager.LoadScene("WorldMapScene");
     }
+
+    public void DeleteHero()
+    {
+        SaveManager.DeleteSave(currentSlot);
+
+        HeroData hero = GetFirstHero();
+        DisplayHero(hero);
+
+        Debug.Log("hero deleted");
+    }
 }
