@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SavedHeroController : MonoBehaviour
 {
@@ -140,5 +141,10 @@ public class SavedHeroController : MonoBehaviour
     public void PreviousHero()
     {
         DisplayHero(GetPreviousHero());
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
