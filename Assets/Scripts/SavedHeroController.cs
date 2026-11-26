@@ -43,8 +43,8 @@ public class SavedHeroController : MonoBehaviour
             }
         }
 
-        GetFirstHero();
-        return null;
+        return GetFirstHero();
+        
     }
 
     public HeroData GetPreviousHero()
@@ -64,8 +64,8 @@ public class SavedHeroController : MonoBehaviour
             }
         }
 
-        GetFirstHero();
-        return null;
+        return GetFirstHero();
+        
     }
 
     public Sprite GetHeroSprite(string heroName)
